@@ -637,6 +637,14 @@
   position: relative;
   color: #928c8c;
 }
+.center .center_box .box_l .l_box .choose .warn {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 120px;
+  font-size: 16px;
+  color: red;
+}
 .center .center_box .box_l .l_box .btn a {
   float: left;
   width: 100%;
