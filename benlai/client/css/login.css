@@ -1,0 +1,665 @@
+.head {
+  width: 100%;
+  color: #3e4141;
+}
+.head .head_top {
+  width: 100%;
+  background-color: #fcfcfc;
+  border-bottom: 1px solid #e5e5e5;
+}
+.head .head_top .head_top_box {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 79;
+  font-size: 12px;
+}
+.head .head_top .head_top_box .login {
+  color: #3e4141;
+  line-height: 30px;
+  float: left;
+  margin-right: 20px;
+}
+.head .head_top .head_top_box .login a {
+  color: #ff6900;
+  margin: 0 0 0 5px;
+}
+.head .head_top .head_top_box .welcome_login {
+  font-family: "宋体", "Arial Narrow", HELVETICA;
+  font-size: 12px;
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+.head .head_top .head_top_box .head_city {
+  float: left;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -43px no-repeat;
+  padding-left: 34px;
+}
+.head .head_top .head_top_box .head_city a {
+  text-align: left;
+  line-height: 22px;
+  color: #3e4141;
+  float: left;
+  border: 1px solid #eeeee7;
+  margin-top: 3px;
+  overflow: hidden;
+  padding-right: 10px;
+}
+.head .head_top .head_top_box .head_menu {
+  float: right;
+  height: 30px;
+  line-height: 30px;
+}
+.head .head_top .head_top_box .head_menu li {
+  float: left;
+  position: relative;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) right -79px no-repeat;
+}
+.head .head_top .head_top_box .head_menu .menu_word {
+  margin: 0 15px;
+}
+.head .head_top .head_top_box .head_menu .menu_word a {
+  color: #000;
+  margin: 0 5px;
+}
+.head .head_top .head_top_box .head_menu .head_twocode {
+  float: left;
+}
+.head .head_top .head_top_box .head_menu .head_twocode dl {
+  width: 101px;
+  height: 30px;
+  display: block;
+}
+.head .head_top .head_top_box .head_menu .head_twocode dl dt {
+  display: block;
+}
+.head .head_top .head_top_box .head_menu .head_twocode dl dt a {
+  width: 71px;
+  padding: 0 0 0 30px;
+  display: block;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ipico01_dfa609de.gif) 11px 4px no-repeat;
+  line-height: 30px;
+  color: #3e4141;
+  text-decoration: none;
+}
+.head .head_top .head_top_box .head_menu .head_twocode dl dt div {
+  display: block;
+}
+.head .head_top .head_top_box .head_menu .head_twocode dl dd {
+  width: 93px;
+  position: absolute;
+  margin-left: 0;
+  top: 30px;
+  left: -1px;
+  padding: 0 4px;
+  background-color: #fff;
+  box-shadow: 1px 1px 6px rgba(192, 192, 192, 0.5);
+  z-index: 78;
+  display: none;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.head .head_top .head_top_box .head_menu .head_twocode dl dd p {
+  color: #3e4141;
+  line-height: 40px;
+  text-align: center;
+}
+.head .head_top .head_top_box .head_menu .head_service dl {
+  width: 87px;
+  height: 30px;
+  display: block;
+}
+.head .head_top .head_top_box .head_menu .head_service dl dt {
+  display: block;
+}
+.head .head_top .head_top_box .head_menu .head_service dl dt a {
+  width: 73px;
+  padding: 0 0 0 14px;
+  display: block;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 65px 13px no-repeat;
+  line-height: 30px;
+  color: #3e4141;
+  text-decoration: none;
+}
+.head .head_top .head_top_box .head_menu .head_service dl dd {
+  width: 79px;
+  position: absolute;
+  top: 30px;
+  left: -1px;
+  padding: 0 4px 7px;
+  background-color: #fff;
+  box-shadow: 1px 1px 6px rgba(192, 192, 192, 0.5);
+  z-index: 78;
+  display: none;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+.head .head_top_bar {
+  width: 1920px;
+  height: 60px;
+  margin: 30px auto 0;
+}
+.head .head_top_bar img {
+  display: block;
+}
+.head .head_logo {
+  width: 1200px;
+  height: 102px;
+  margin: 0 auto;
+}
+.head .head_logo .head_logo_box {
+  width: 1200px;
+  padding: 10px 0 20px;
+}
+.head .head_logo .head_logo_box h1 {
+  float: left;
+  width: 352px;
+  height: 72px;
+  display: block;
+  font-size: 20px;
+}
+.head .head_logo .head_logo_box h1 img {
+  border: 0;
+}
+.head .head_logo .head_logo_box .head_car {
+  float: right;
+  margin: 30px 0 0 20px;
+  position: relative;
+  z-index: 69;
+}
+.head .head_logo .head_logo_box .head_car dl {
+  height: 40px;
+}
+.head .head_logo .head_logo_box .head_car dl dt {
+  border: 1px solid #e5e5e5;
+  height: 38px;
+  position: relative;
+  z-index: 67;
+}
+.head .head_logo .head_logo_box .head_car dl dt .buy_quantity {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -194px no-repeat;
+  height: 23px;
+  width: 37px;
+  position: absolute;
+  top: -16px;
+  left: 21px;
+  font: 400 14px/19px "微软雅黑";
+  color: #fff;
+  text-align: center;
+  z-index: 68;
+}
+.head .head_logo .head_logo_box .head_car dl dt a {
+  display: block;
+  background: #f8f8f6;
+  font: 400 12px/38px "微软雅黑";
+  color: #3e4141;
+  padding-right: 25px;
+  text-decoration: none;
+}
+.head .head_logo .head_logo_box .head_car dl dt a s {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -158px no-repeat;
+  width: 21px;
+  height: 16px;
+  display: block;
+  margin: 12px 13px 0 12px;
+  float: left;
+}
+.head .head_logo .head_logo_box .head_my {
+  float: right;
+  margin: 30px 0 0;
+  position: relative;
+  z-index: 59;
+}
+.head .head_logo .head_logo_box .head_my dl {
+  height: 40px;
+  display: block;
+}
+.head .head_logo .head_logo_box .head_my dl dt {
+  border: 1px solid #e5e5e5;
+  height: 38px;
+  position: relative;
+  z-index: 58;
+}
+.head .head_logo .head_logo_box .head_my dl dt a {
+  display: block;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 103px 17px no-repeat #f8f8f6;
+  font: 400 12px/38px "微软雅黑";
+  color: #3e4141;
+  padding-right: 31px;
+  text-decoration: none;
+}
+.head .head_logo .head_logo_box .head_my dl dt a s {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -121px no-repeat;
+  width: 16px;
+  height: 17px;
+  display: block;
+  margin: 12px 9px 0 11px;
+  float: left;
+}
+.head .head_logo .head_logo_box .head_search {
+  float: right;
+  margin: 30px 45px 0 0;
+  height: 41px;
+  width: 470px;
+  position: relative;
+  z-index: 49;
+}
+.head .head_logo .head_logo_box .head_search .search_box {
+  background-color: #91be16;
+  padding: 3px;
+  width: 472px;
+}
+.head .head_logo .head_logo_box .head_search .search_box input {
+  width: 367px;
+  height: 35px;
+  border: 0;
+  padding: 0 10px;
+  float: left;
+  font: 400 14px/35px "Microsoft YaHei";
+  color: #3e4141;
+}
+.head .head_logo .head_logo_box .head_search .search_box a {
+  height: 35px;
+  width: 77px;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -265px no-repeat;
+  display: inline-block;
+}
+.head .head_logo .head_logo_box .head_search .search_word {
+  position: absolute;
+  top: -32px;
+  left: 0;
+  line-height: 32px;
+  height: 32px;
+  width: 470px;
+  overflow: hidden;
+}
+.head .head_logo .head_logo_box .head_search .search_word em {
+  margin: 0 25px 0 0;
+  padding: 0;
+  float: left;
+  max-width: 445px;
+}
+.head .head_logo .head_logo_box .head_search .search_word em a {
+  color: #8c8c8c;
+  display: block;
+  font-size: 14px;
+  white-space: nowrap;
+  width: auto;
+}
+.head .head_logo .head_logo_box .head_search .search_word em a:hover {
+  color: #ff6900;
+}
+.head .head_menu_nav {
+  height: 44px;
+  width: 100%;
+  background-color: #8ab700;
+}
+.head .head_menu_nav .head_menu_box {
+  width: 1200px;
+  height: 44px;
+  margin: 0 auto;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all {
+  position: relative;
+  z-index: 39;
+  float: left;
+  width: 210px;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_all a {
+  float: left;
+  width: 175px;
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 158px -218px no-repeat #78a000;
+  font: 400 18px/44px "Microsoft YaHei";
+  color: #fff;
+  padding-left: 35px;
+  text-decoration: none;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort {
+  border: 2px solid #91be16;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  height: 396px;
+  width: 206px;
+  background-color: #fff;
+  display: none;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg1 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px 0 no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg2 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -33px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg3 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -66px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg4 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -99px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg5 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -132px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg6 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -165px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg7 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -198px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg8 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -231px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg9 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -264px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg10 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -297px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg11 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -330px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort .sort_bg12 {
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -363px no-repeat #fff;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort dl {
+  height: 33px;
+  width: 206px;
+  float: left;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort dl dt {
+  height: 31px;
+  line-height: 31px;
+  width: 156px;
+  position: relative;
+  z-index: 37;
+  top: 0;
+  left: 0;
+  color: #4c4c4c;
+  padding: 1px 0 1px 50px;
+  text-overflow: clip;
+  overflow: hidden;
+  font-family: "Microsoft YaHei";
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort dl dt a {
+  color: #4c4c4c;
+  line-height: 31px;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort dl dt span {
+  content: "";
+  background: url(//image.benlailife.com/webStatic/images/n_top/n_icon12_498beb5a.png) 0 0 no-repeat;
+  display: block;
+  width: 6px;
+  height: 12px;
+  float: right;
+  margin: 12px 12px 0 0;
+}
+.head .head_menu_nav .head_menu_box .head_menu_all .tit_sort dl dd {
+  border-left: 1px solid #8ab700;
+  border-right: 1px solid #8ab700;
+  border-bottom: 1px solid #8ab700;
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.97);
+  position: absolute;
+  top: -2px;
+  left: 208px;
+  z-index: 36;
+  width: 973px;
+  height: auto!important;
+  height: 384px;
+  min-height: 384px;
+  padding: 15px 15px 0 0;
+  display: none;
+}
+.head .head_menu_nav .head_menu_box .head_menu_r {
+  float: right;
+  width: 988px;
+  height: 40px;
+  margin: 2px 0 0 2px;
+}
+.head .head_menu_nav .head_menu_box .head_menu_r ul {
+  display: block;
+  list-style-type: disc;
+}
+.head .head_menu_nav .head_menu_box .head_menu_r ul li {
+  float: left;
+  position: relative;
+  z-index: 39;
+}
+.head .head_menu_nav .head_menu_box .head_menu_r ul li:hover {
+  background: #78a000;
+}
+.head .head_menu_nav .head_menu_box .head_menu_r ul li img {
+  position: absolute;
+  top: -8px;
+  right: 8px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+.head .head_menu_nav .head_menu_box .head_menu_r ul li a {
+  font: 400 18px/40px "Microsoft YaHei";
+  color: #fff !important;
+  padding: 0 25px;
+  text-decoration: none!important;
+  display: block;
+}
+.footer {
+  width: 100%;
+}
+.footer .footer_bar_box {
+  width: 100%;
+  background: #f8f8f6;
+}
+.footer .footer_bar_box .footer_bar {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+}
+.footer .footer_bar_box .footer_bar img {
+  display: block;
+  width: 1200px;
+  height: 120px;
+}
+.footer .footer_com {
+  width: 920px;
+  padding: 20px 0 20px 70px;
+  height: 160px;
+  border-top: 0;
+  margin: 0 auto;
+}
+.footer .footer_com dl {
+  float: left;
+  width: 230px;
+  height: 160px;
+}
+.footer .footer_com dl dt {
+  font: 700 14px/26px "微软雅黑";
+  height: 26px;
+  margin-bottom: 10px;
+  color: #666;
+  padding-left: 35px;
+  background: url(//image.benlailife.com/webStatic/images/n_foot/foot_84041c99.gif) no-repeat;
+}
+.footer .footer_com dl dd {
+  line-height: 25px;
+  margin-left: 10px;
+  padding-left: 25px;
+  border-left: 1px dotted #ccc;
+}
+.footer .footer_com dl dd a {
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+.footer .footer_com dl dd a:hover {
+  color: #ff6900;
+}
+.footer .footer_com dl .xs {
+  background-position: 0 -250px;
+}
+.footer .footer_com dl .ps {
+  background-position: 0 -280px;
+}
+.footer .footer_com dl .zf {
+  background-position: 0 -314px;
+}
+.footer .footer_com dl .sh {
+  background-position: 0 -348px;
+}
+.footer .info {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer .info dl {
+  font-family: "宋体", "Arial Narrow", HELVETICA;
+  font-size: 12px;
+  color: #333;
+}
+.footer .info dl dt {
+  width: 385px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  font-family: Microsoft YaHei;
+  color: #666;
+  background: url(../img/dh.gif) no-repeat left center;
+}
+.footer .info dl dd {
+  display: block;
+  margin-left: 0;
+  margin-inline-start: 40px;
+}
+.footer .info dl dd em {
+  padding: 0 10px;
+  border-right: 1px solid #666;
+  line-height: 24px;
+  color: #666;
+}
+.footer .info dl dd em a {
+  color: #666;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+.footer .info dl dd em a:hover {
+  color: #ff6900;
+}
+.footer .info dl dd span {
+  margin: 0 auto;
+  padding: 20px 0;
+  display: block;
+  width: 300px;
+  height: 35px;
+}
+.footer .info dl dd span img {
+  display: block;
+  padding: 0 20px;
+  float: left;
+  width: 95px;
+  height: 35px;
+}
+.center {
+  width: 100%;
+  min-height: 720px;
+}
+.center .center_box {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 30px ;
+  clear: both;
+}
+.center .center_box .box_l {
+  float: left;
+  width: 460px;
+  border: 1px solid #ddd;
+  margin-bottom: 50px;
+  height: auto!important;
+  height: 588px;
+  min-height: 388px;
+}
+.center .center_box .box_l .tit {
+  position: relative;
+  z-index: 0;
+  padding: 35px!important;
+}
+.center .center_box .box_l .tit p {
+  float: left;
+  background: url(../img/jlt3.png) no-repeat 0px -63px;
+  font: 400 18px/30px "Microsoft YaHei";
+  padding-left: 40px;
+}
+.center .center_box .box_l ul {
+  padding: 0 30px;
+  float: left;
+  width: 400px;
+}
+.center .center_box .box_l .l_box {
+  height: auto!important;
+  height: 381px;
+  min-height: 381px;
+  padding: 0 30px;
+}
+.center .center_box .box_l .l_box dl {
+  float: left;
+  width: 398px;
+  line-height: 28px;
+  border: 1px solid #ddd;
+  margin-bottom: 30px;
+  padding: 7px 0;
+  position: relative;
+  z-index: 0;
+}
+.center .center_box .box_l .l_box dl p {
+  float: left;
+  width: 100px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+  font: 400 14px/28px "Microsoft YaHei";
+  margin-right: 10px;
+  display: block;
+}
+.center .center_box .box_l .l_box dl input {
+  font: 400 14px/28px "Microsoft YaHei";
+  width: 240px;
+  height: 28px;
+  border: 0;
+}
+.center .center_box .box_l .l_box .choose {
+  float: left;
+  font: 400 14px/20px "Microsoft YaHei";
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  color: #928c8c;
+}
+.center .center_box .box_l .l_box .btn a {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font: 400 24px/58px "Microsoft YaHei";
+  color: #fff;
+  background-color: #ff6900;
+}
+.center .center_box .box_l .l_box .word {
+  float: left;
+  width: 100%;
+  text-align: right;
+  font: 400 14px/35px "Microsoft YaHei";
+  padding-bottom: 25px;
+}
+.center .center_box .box_l .l_box .word a {
+  color: #101010;
+  margin-left: 5px;
+}
+.center .center_box .box_r {
+  float: right;
+}
+.center .center_box .box_r img {
+  width: 650px;
+  height: 590px;
+}
