@@ -1,0 +1,59 @@
+{   
+    "type":["新品上市","好评如潮"],
+    "data": [
+        [
+            {
+                "src": "https://image3.benlailife.com//ProductImages/000/000/356/907/medium/04e247a0-fea5-44ae-9ea3-11b05d51e020.jpg?imageView2/2/format/webp",
+                "name": "<font>百年渔港大连冷冻即食海参90g(4只)盒装</font><span>肉壁肥厚、参刺坚挺，解冻即食省事便利</span>",
+                "price": "￥99.00<span>￥108.00</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com//ProductImages/000/000/436/386/medium/39309a31-7ed6-493b-a19c-cf8216b0f9be.jpg?imageView2/2/format/webp",
+                "name": "<font>乌拉圭原切牛腩1kg</font><span>精细加工 天然草饲 醇香绵长</span>",
+                "price": "￥69.90<span>￥169.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/medium/ed4c497e-7ad0-4e61-b5d9-1db475e16569.jpg?imageView2/2/format/webp",
+                "name": "<font>查干湖小粒稻花香大米5kg</font><span></span>",
+                "price": "￥89.00<span>￥139.00</span>"
+            },
+            {
+                "src": "https://image4.benlailife.com//ProductImages/000/000/423/716/medium/79fc0b09-b18c-4a5f-aab1-303f117661a8.jpg?imageView2/2/format/webp",
+                "name": "<font>Dole都乐帝王蕉 2把装(600g以上)</font><span>软糯香甜</span>",
+                "price": "￥21.90<span>￥38.00</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com//ProductImages/000/000/294/823/medium/0de6517f-504b-4d6d-b88d-dbbef38d5d5c.jpg?imageView2/2/format/webp",
+                "name": "<font>良记金轮莲花系列泰国香米5kg</font><span>泰国原粮进口，绿色自然</span>",
+                "price": "￥119.90<span>￥138.00</span>"
+            }
+        ],
+        [
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/072/501/medium/3198420a-0af5-40da-98f5-d511180a2a53.jpg?imageView2/2/format/webp",
+                "name": "<font>新西兰 优露欧兰矿泉水 10L</font><span></span>",
+                "price": "￥69.90<span>￥79.00</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com//ProductImages/000/000/350/451/medium/04e2c708-7298-44f8-b8dd-a91e1f763e25.jpg?imageView2/2/format/webp",
+                "name": "<font>西鲜记宁夏盐池滩羊羔羊肉片300g</font><span>弹嫩鲜香 爽口无膻</span>",
+                "price": "￥49.90<span>￥99.00</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com//ProductImages/000/000/008/841/medium/766c0dea-fa63-491e-93aa-589b1bac621e.jpg?imageView2/2/format/webp",
+                "name": "<font>维他 柠檬茶  250ML*16</font><span>要来就来真的，茶和柠檬的搭档</span>",
+                "price": "￥39.80<span>￥69.00</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com//ProductImages/000/000/074/076/medium/0bafb65e-e094-45a0-a572-7fc3ddaece7f.jpg?imageView2/2/format/webp",
+                "name": "<font>本来鲜鸡蛋20枚</font><span>蛋黄大 蛋味浓 珍珠棉包装</span>",
+                "price": "￥29.90<span>￥32.80</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com//ProductImages/000/000/077/717/medium/c28afe08-6b77-4d5c-b711-c8f3a479a205.jpg?imageView2/2/format/webp",
+                "name": "<font>日本进口 Calbee佳可比薯条三兄弟咸味薯条80g</font><span>每1根都让你觉得满足</span>",
+                "price": "￥28.90<span></span>"
+            }
+        ]
+    ]
+}

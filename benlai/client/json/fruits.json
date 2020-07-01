@@ -1,0 +1,153 @@
+{
+    "title":"时令鲜果",
+    "srca":"//image3.benlailife.com//OnlineHomePageImage/0/3/394f851a-42ec-454a-a165-f279de26b1b0.jpg",
+    "types":["进口水果","国产水果","热销爆款"],
+    "data": [
+        [
+            {
+                "src": "https://image4.benlailife.com/ProductImages/000/000/281/766/medium/db6388c7-7b7a-41b6-af92-1e92c96dd01e.jpg?imageView2/2/format/webp",
+                "name": "<font>泰国椰青整箱装 9个装(8.1kg以上)</font><span>椰汁清甜沁心 椰肉香软滑嫩</span>",
+                "price": "￥99.00<span>￥188.00</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/medium/20881005-5140-483c-8707-568aef918235.jpg?imageView2/2/format/webp",
+                "name": "<font>泰国金枕头冷冻榴莲果肉300g</font><span>热带风味 冰爽甜蜜</span>",
+                "price": "￥39.90<span>￥68.00</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/379/176/medium/e6d3061b-fbef-4d4e-88e2-ebdc7a7508bd.jpg?imageView2/2/format/webp",
+                "name": "<font>泰国金柚单个装 （900g以上）</font><span>柚子清香、酸甜</span>",
+                "price": "￥49.90<span>￥78.00</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/medium/a4a939da-e4fb-453c-a6b5-8a0918ad3c10.jpg?imageView2/2/format/webp",
+                "name": "<font>Dole都乐超甜香蕉1把(600-800g)</font><span>香甜软糯，甜蜜专享</span>",
+                "price": "￥9.90<span>￥29.00</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/423/716/medium/79fc0b09-b18c-4a5f-aab1-303f117661a8.jpg?imageView2/2/format/webp",
+                "name": "<font>Dole都乐帝王蕉 2把装(600g以上)</font><span>软糯香甜</span>",
+                "price": "￥21.90<span>￥38.00</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/medium/bced9db8-cbe0-43c9-a8f2-6a5b57050f47.jpg?imageView2/2/format/webp",
+                "name": "<font>佳沛新西兰绿奇异果原箱3.3kg(25-27粒)</font><span>酸酸甜甜小清新 营养丰富</span>",
+                "price": "￥119.00<span>￥259.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/medium/46370778-f165-4a3a-95e9-252d83184aaa.jpg?imageView2/2/format/webp",
+                "name": "<font>佳沛新西兰金奇异果20粒 (25~27# 2.4-2.6kg)</font><span>佳沛直供——本来纪念版</span>",
+                "price": "￥189.00<span>￥259.00</span>"
+            },
+            {
+                "src": "https://image4.benlailife.com/ProductImages/medium/ba1d3c35-bbc8-49a5-98f4-f48f37f19887.jpg?imageView2/2/format/webp",
+                "name": "<font>新西兰皇后苹果12个装(2kg以上)</font><span>享有“女神果”的美称</span>",
+                "price": "￥49.90<span>￥99.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/390/680/medium/28a31ea9-7cb9-4c06-b88c-643dc49815e1.jpg?imageView2/2/format/webp",
+                "name": "<font>越南红心火龙果大果2个装(900g以上)</font><span>玫瑰诱惑，皮薄味甜</span>",
+                "price": "￥32.90<span>￥68.00</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/400/573/medium/bfe3058b-fbe9-4026-981f-6c00c62ddccd.jpg?imageView2/2/format/webp",
+                "name": "<font>Dole都乐比利时啤梨4个装(500g以上)</font><span>清新“软妹子”，细腻多汁芳香散</span>",
+                "price": "￥19.90<span>￥39.00</span>"
+            }
+        ],
+        [
+            {
+                "src": "https://image3.benlailife.com/ProductImages/medium/3e3e4ac1-119b-4ba2-bd8f-9a79dfbc39d7.jpg?imageView2/2/format/webp",
+                "name": "<font>陕西红富士苹果6个装(1.2kg以上)</font><span>中国洛川苹果之乡</span>",
+                "price": "￥29.90<span>￥68.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/medium/7b44ce3c-c48e-4d29-8b1f-a5359295b027.jpg?imageView2/2/format/webp",
+                "name": "<font>【产地直发】海南蜜宝红心火龙果1.5kg装</font><span>让味蕾去旅行—海南红心火龙果</span>",
+                "price": "￥59.90<span>￥98.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/013/626/medium/079777c2-319a-42a3-a596-b6bcd4b5e666.jpg?imageView2/2/format/webp",
+                "name": "<font>新疆库尔勒香梨 (一级·1kg)</font><span>皮薄 肉脆 汁多 酥香</span>",
+                "price": "￥25.90<span>￥49.00</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/344/554/medium/2a104a38-b686-45f9-b98d-fd48c7f315bf.jpg?imageView2/2/format/webp",
+                "name": "<font>醇蜜网纹瓜单个装(800g以上)</font><span>香甜软糯，吃一次忘不了</span>",
+                "price": "￥21.90<span>￥58.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/403/626/medium/c26fc0dd-0710-483d-ad7f-5504a776816d.jpg?imageView2/2/format/webp",
+                "name": "<font>山东红富士苹果15粒礼盒装(3kg以上)</font><span>果肉细脆 风味芳香</span>",
+                "price": "￥59.00<span>￥138.00</span>"
+            },
+            {
+                "src": "https://image2.benlailife.com/ProductImages/medium/303e3c7f-2c91-4c9b-b903-6d83c7bfa2f5.jpg?imageView2/2/format/webp",
+                "name": "<font>山东红富士苹果 9个装(1.7kg以上)</font><span>果肉细脆 风味芳香</span>",
+                "price": "￥31.90<span>￥69.00</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/medium/bf415534-ef6d-4441-bfab-94bb3ad4331d.jpg?imageView2/2/format/webp",
+                "name": "<font>海南西州蜜瓜单个装(1.5kg以上)</font><span>一瓜一境界</span>",
+                "price": "￥25.90<span>￥48.00</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/363/245/medium/c2bd4fcc-db62-451c-a189-0cc1a4561a90.jpg?imageView2/2/format/webp",
+                "name": "<font>美早大樱桃500g(果径26-28mm)</font><span></span>",
+                "price": "￥59.00<span>￥169.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/403/516/medium/3f97acb1-21de-4c8e-bab9-2c73d262dd59.jpg?imageView2/2/format/webp",
+                "name": "<font>【预售】大连瓦房店美早樱桃1磅 (JJ级28-30mm)</font><span>每一颗都是爱你的形状</span>",
+                "price": "￥99.00<span>￥199.00</span>"
+            }
+        ],
+        [
+            {
+                "src": "https://image4.benlailife.com/ProductImages/000/000/281/766/medium/db6388c7-7b7a-41b6-af92-1e92c96dd01e.jpg?imageView2/2/format/webp",
+                "name": "<font>泰国椰青整箱装 9个装(8.1kg以上)</font><span>椰汁清甜沁心 椰肉香软滑嫩</span>",
+                "price": "￥99.00<span>￥188.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/383/471/medium/8d1aa629-84ee-4928-ac3e-a4d81c2a8639.jpg?imageView2/2/format/webp",
+                "name": "<font>Dole都乐菲律宾无冠菠萝1个装(1kg以上)</font><span>酸甜爽脆，细腻少渣</span>",
+                "price": "￥19.90<span>￥39.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/426/225/medium/befb086d-ea5a-4f5c-bd6a-a4acec3b7f6b.jpg?imageView2/2/format/webp",
+                "name": "<font>马来西亚黑刺冷冻榴莲肉350g装</font><span></span>",
+                "price": "￥159.00<span>￥299.00</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/294/079/medium/15bd7e37-92b3-4501-b374-23d64a0e0c4d.jpg?imageView2/2/format/webp",
+                "name": "<font>新疆库尔勒香梨 整箱装(一级·5-5.5kg)</font><span>香而清甜 个小好吃</span>",
+                "price": "￥69.00<span>￥178.00</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/363/244/medium/1da88efe-41d9-478d-bc95-c2a2e4a4ec1d.jpg?imageView2/2/format/webp",
+                "name": "<font>美早大樱桃500g(果径28-30mm)</font><span></span>",
+                "price": "￥69.00<span>￥199.00</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/medium/14b0fb0d-373b-4f46-a9ca-b25cdaeecaad.jpg?imageView2/2/format/webp",
+                "name": "<font>Driscoll's云南蓝莓12盒(125g*12)</font><span>加州百年老品牌，浆果巨头直供</span>",
+                "price": "￥149.00<span>￥369.00</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/369/595/medium/f4ae4ccf-6e5b-432d-8f05-c8e5ef95351a.jpg?imageView2/2/format/webp",
+                "name": "<font>海南西州蜜瓜4个装4kg以上</font><span>阳光的馈赠，甜到心尖的美味</span>",
+                "price": "￥59.00<span>￥139.00</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/432/285/medium/06801728-8393-4f01-9df1-2c863e42b910.jpg?imageView2/2/format/webp",
+                "name": "<font>洛川美域高苹果24枚装(4.2kg以上)</font><span>脆甜多汁、肉质脆密</span>",
+                "price": "￥89.00<span>￥129.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/medium/49aec5b7-5a20-4cc6-bf9f-e19c10e05aec.jpg?imageView2/2/format/webp",
+                "name": "<font>【顺丰产地直发】湖北秭归伦晚脐橙大果约4.5kg(75mm以上)</font><span></span>",
+                "price": "￥79.00<span>￥118.00</span>"
+            }
+        ]
+    ]
+}

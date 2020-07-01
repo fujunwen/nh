@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/Slider.js"></script>
+    <script src="../js/jquery-3.4.1.js"></script>
 </head>
 
 <body>
@@ -93,7 +96,7 @@
                 <!--搜索框-->
                 <div class="head_search">
                     <div class="search_box">
-                        <input type="text" name="" id="" value="新西兰水果">
+                        <input type="text" name="" id="" value="" placeholder="新西兰水果">
                         <a href=""></a>
                     </div>
                     <div class="search_word">
@@ -368,7 +371,15 @@
         </div>
     </div>
     <!--中间部分-->
-    <div class="center"></div>
+    <!--轮播图-->
+    <script>
+        $(".center").html((new Slider(["//image.benlailife.com/images/gz/banner/20200601/0622hgg.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjdzx30.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjsr26.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjlz22.jpg",
+            "//image.benlailife.com/images/gz/banner/20200501/sjjg19.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjfz21.jpg"])).init())
+    </script>
 
 
 

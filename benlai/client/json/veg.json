@@ -1,0 +1,220 @@
+{
+    "title": "蔬菜菌菇",
+    "srca": "//image8.benlailife.com//OnlineHomePageImage/0/4/fcb9474b-353f-45c7-ba77-cc0a245c4778.jpg",
+    "types": [
+        "热销爆品",
+        "时令根茎",
+        "精选叶菜",
+        "新鲜瓜果"
+    ],
+    "data": [
+        [
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/300/309/medium/aff818ae-f4c7-45a4-a2b3-6544ef8f3cf8.jpg?imageView2/2/format/webp",
+                "name": "<font>黑土地有机速冻鲜糯黄玉米400g*6袋(12穗)</font><span>速冻锁鲜 软糯弹牙</span>",
+                "price": "￥59.00<span>￥78.00</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/280/214/medium/82559cfe-06fe-4044-b913-ef90f7e20838.jpg?imageView2/2/format/webp",
+                "name": "<font>生态红萝卜500g</font><span>新鲜脆嫩，鲜香可口</span>",
+                "price": "￥3.90<span>￥10.80</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/300/308/medium/1137d37d-2037-44cf-a92c-f4c724208800.jpg?imageView2/2/format/webp",
+                "name": "<font>黑土地有机速冻鲜糯白玉米400g*6袋(12穗)</font><span>速冻锁鲜 软糯弹牙</span>",
+                "price": "￥49.00<span>￥78.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/321/759/medium/b5cd6ff8-30f1-4f0e-a98b-ac73a43affee.jpg?imageView2/2/format/webp",
+                "name": "<font>生态粉瓤番茄1kg（6粒）</font><span>新鲜脆嫩 生态种植</span>",
+                "price": "￥25.80<span>￥29.00</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/292/497/medium/dedfbd01-c759-4c73-bac5-686a5cb599a4.jpg?imageView2/2/format/webp",
+                "name": "<font>海南板栗红薯1kg</font><span>海南岛原生态种植 可蒸可烤 口感如板栗般粉糯甘甜</span>",
+                "price": "￥19.80<span>￥25.80</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/366/414/medium/bc698e77-5401-4c67-bfa4-ae2e57cf1fe2.jpg?imageView2/2/format/webp",
+                "name": "<font>生态绿芦笋250g</font><span>新鲜脆嫩 口感鲜美</span>",
+                "price": "￥9.90<span>￥25.80</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/321/771/medium/8b195a62-5245-4647-8027-f99a5458c463.jpg?imageView2/2/format/webp",
+                "name": "<font>福建漳州黄秋葵450g</font><span>新鲜脆嫩，营养美味</span>",
+                "price": "￥12.80<span>￥19.80</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/016/651/medium/9daa5904-93ca-4c6c-be60-1f93db9cb40e.jpg?imageView2/2/format/webp",
+                "name": "<font>生态青圆椒300g</font><span>美味开胃</span>",
+                "price": "￥7.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/035/190/medium/b1d35578-036e-4464-979e-4c1e953c181e.jpg?imageView2/2/format/webp",
+                "name": "<font>生态西兰花350g</font><span>营养健康  西餐常备配菜</span>",
+                "price": "￥9.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/035/182/medium/2161beba-2f43-4d06-b0df-805b0f9fb793.jpg?imageView2/2/format/webp",
+                "name": "<font>生态白洋葱500g</font><span>烹饪简单，味道鲜美</span>",
+                "price": "￥7.90<span>￥10.80</span>"
+            }
+        ],
+        [
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/297/185/medium/b8d52ccd-d667-41d1-8834-9e3dde2acfca.jpg?imageView2/2/format/webp",
+                "name": "<font>生态小黄姜250g</font><span>新鲜脆嫩 生态种植</span>",
+                "price": "￥10.80<span></span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/321/762/medium/49dd1faf-a56a-4e37-be2c-f80904318881.jpg?imageView2/2/format/webp",
+                "name": "<font>生态独头蒜250g</font><span>新鲜脆嫩 生态种植</span>",
+                "price": "￥13.90<span>￥15.80</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/035/388/medium/26352eed-d3cd-4253-a1ac-b94d3387be45.jpg?imageView2/2/format/webp",
+                "name": "<font>生态茭白350g</font><span>肉色洁白，清鲜爽口</span>",
+                "price": "￥12.80<span></span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/336/640/medium/0217417f-c8d2-4778-85e2-45de6fb4fc29.jpg?imageView2/2/format/webp",
+                "name": "<font>【产地直发】湖北恩施高山土豆2.5kg</font><span>老品种土豆 高山原生态种植</span>",
+                "price": "￥24.90<span>￥39.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/280/221/medium/ae05940a-86c5-47b8-aabc-8dee4ca16536.jpg?imageView2/2/format/webp",
+                "name": "<font>有机红洋葱400g</font><span></span>",
+                "price": "￥9.90<span>￥19.80</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/365/914/medium/226679ea-790e-41be-8df8-2677fe746f26.jpg?imageView2/2/format/webp",
+                "name": "<font>陈集山药（鸡皮糙）1kg</font><span>质地紧实，口感绵密</span>",
+                "price": "￥29.90<span>￥32.80</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/011/674/medium/4ec94e39-35a3-458b-9685-25934c3ee1a0.jpg?imageView2/2/format/webp",
+                "name": "<font>陈集山药（西施种子）500g</font><span>绿色种植，可以蒸着吃的山药</span>",
+                "price": "￥23.80<span>￥29.00</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/321/764/medium/a8483646-edf5-4b1b-bc33-61f3dfcc78e7.jpg?imageView2/2/format/webp",
+                "name": "<font>生态透心红胡萝卜400g</font><span>新鲜脆嫩 生态种植</span>",
+                "price": "￥9.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image4.benlailife.com/ProductImages/000/000/054/194/medium/1094031b-c20d-4555-ac38-10e3adc1a447.jpg?imageView2/2/format/webp",
+                "name": "<font>有机胡萝卜250g</font><span>脆口清甜，肉厚汁多</span>",
+                "price": "￥9.90<span>￥15.80</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/285/330/medium/54566f14-4115-4825-96e9-f1f71ad63038.jpg?imageView2/2/format/webp",
+                "name": "<font>生态金银玉米500g(2穗)</font><span>脆嫩香甜，生吃熟食皆宜</span>",
+                "price": "￥9.90<span>￥12.80</span>"
+            }
+        ],
+        [
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/280/211/medium/a2fa24f9-7756-4ffd-bcae-9c5c3ca77893.jpg?imageView2/2/format/webp",
+                "name": "<font>生态小葱200g</font><span>调味常备，饱满味浓</span>",
+                "price": "￥6.80<span></span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/035/358/medium/b401140b-1d12-4f37-bc00-1a81a4011a6a.jpg?imageView2/2/format/webp",
+                "name": "<font>生态娃娃菜500g</font><span>味道甘甜</span>",
+                "price": "￥7.90<span>￥9.90</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/280/220/medium/b5675f30-9ea7-4f50-98dc-2b36ab4ebd03.jpg?imageView2/2/format/webp",
+                "name": "<font>生态白花菜400g</font><span>新鲜脆嫩，鲜香可口</span>",
+                "price": "￥7.90<span>￥10.80</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/035/190/medium/b1d35578-036e-4464-979e-4c1e953c181e.jpg?imageView2/2/format/webp",
+                "name": "<font>生态西兰花350g</font><span>营养健康  西餐常备配菜</span>",
+                "price": "￥9.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/287/908/medium/ed83162c-9515-4baf-843a-b02808318893.jpg?imageView2/2/format/webp",
+                "name": "<font>有机菠菜250g</font><span>有机种植 清鲜脆嫩</span>",
+                "price": "￥9.90<span>￥16.80</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/280/185/medium/bb8049f0-f07a-4b1c-b8cd-a254a90daa98.jpg?imageView2/2/format/webp",
+                "name": "<font>生态生菜300g</font><span>新鲜脆嫩，鲜香可口</span>",
+                "price": "￥7.90<span>￥10.80</span>"
+            },
+            {
+                "src": "https://image7.benlailife.com/ProductImages/000/000/014/467/medium/441429e8-d680-4728-9ee0-6391e14ef05a.jpg?imageView2/2/format/webp",
+                "name": "<font>生态菠菜250g</font><span>鲜嫩，健康</span>",
+                "price": "￥9.90<span></span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/368/086/medium/1d7378e8-cdbc-4dae-b710-6ebf8361f4ec.jpg?imageView2/2/format/webp",
+                "name": "<font>有机娃娃菜300g</font><span>有机种植 清鲜脆嫩</span>",
+                "price": "￥9.90<span>￥19.80</span>"
+            },
+            {
+                "src": "https://image.benlailife.com/ProductImages/000/000/018/545/medium/57082969-181e-4097-8e8a-1fabbca64e52.jpg?imageView2/2/format/webp",
+                "name": "<font>有机紫甘蓝400g</font><span></span>",
+                "price": "￥9.90<span>￥19.80</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/000/000/054/208/medium/c024aee9-5092-4c25-806a-a1533975ed73.jpg?imageView2/2/format/webp",
+                "name": "<font>有机生菜250g</font><span>有机种植 清鲜脆嫩</span>",
+                "price": "￥9.90<span>￥15.80</span>"
+            }
+        ],
+        [
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/321/759/medium/b5cd6ff8-30f1-4f0e-a98b-ac73a43affee.jpg?imageView2/2/format/webp",
+                "name": "<font>生态粉瓤番茄1kg（6粒）</font><span>新鲜脆嫩 生态种植</span>",
+                "price": "￥25.80<span>￥29.00</span>"
+            },
+            {
+                "src": "https://image8.benlailife.com/ProductImages/000/000/035/383/medium/b26038e3-d0a2-4263-9ff8-13e14f4021a3.jpg?imageView2/2/format/webp",
+                "name": "<font>生态毛豆500g</font><span>清新脆嫩，营养美味</span>",
+                "price": "￥12.80<span>￥15.80</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/035/196/medium/cb6292e5-14e6-4bfb-bc0a-f73dd24c6112.jpg?imageView2/2/format/webp",
+                "name": "<font>生态红圣女果500g</font><span>鲜嫩爽口，饱满多汁</span>",
+                "price": "￥9.90<span>￥10.80</span>"
+            },
+            {
+                "src": "https://image5.benlailife.com/ProductImages/000/000/016/651/medium/9daa5904-93ca-4c6c-be60-1f93db9cb40e.jpg?imageView2/2/format/webp",
+                "name": "<font>生态青圆椒300g</font><span>美味开胃</span>",
+                "price": "￥7.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/035/193/medium/d6ee4220-d4e8-47ac-8f29-2d28d18403b3.jpg?imageView2/2/format/webp",
+                "name": "<font>生态红黄彩椒300g</font><span>维生素C含量高，美味又好看。</span>",
+                "price": "￥9.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/299/828/medium/8bf558c1-af8c-40e2-b277-f3cd17769a41.jpg?imageView2/2/format/webp",
+                "name": "<font>生态贝贝南瓜2.2kg</font><span>小南瓜 粉糯甘甜</span>",
+                "price": "￥39.00<span>￥49.00</span>"
+            },
+            {
+                "src": "https://image4.benlailife.com/ProductImages/000/000/034/248/medium/4928ff3d-ec95-426e-886c-7fe8bf57f814.jpg?imageView2/2/format/webp",
+                "name": "<font>生态荷兰豆200g</font><span>嫩荚质脆又清香</span>",
+                "price": "￥9.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image3.benlailife.com/ProductImages/000/000/280/202/medium/e39a7256-ba95-4b95-a8ab-ad09c8f5f727.jpg?imageView2/2/format/webp",
+                "name": "<font>生态茄瓜400g</font><span></span>",
+                "price": "￥3.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image2.benlailife.com/ProductImages/000/000/040/519/medium/99966d1f-3b7b-49fa-9c52-eb4442605255.jpg?imageView2/2/format/webp",
+                "name": "<font>生态佛手瓜350g</font><span>品味自然的清新美味</span>",
+                "price": "￥7.90<span>￥12.80</span>"
+            },
+            {
+                "src": "https://image6.benlailife.com/ProductImages/medium/03e17a4b-fda7-4b6a-9d00-45c8f97e414c.jpg?imageView2/2/format/webp",
+                "name": "<font>生态水果黄瓜600g</font><span></span>",
+                "price": "￥4.90<span>￥12.80</span>"
+            }
+        ]
+    ]
+}
