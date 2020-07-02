@@ -1,5 +1,58 @@
+.praise{
+    width:1200px;
+    height: 300px;
+    margin: 0 auto;
+    // min-height: 300px ;
+    background: rgb(255, 255, 255);
+    position: relative;
+    .ann {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: 1px solid #c2d58f;
+        width: 175px;
+        height: 264px;
+        margin-bottom: 20px;
+        .tit {
+            font: 400 18px/45px "Microsoft YaHei";
+            color: #626252;
+            margin-top: 7px;
+            text-align: center;
+        }
+        ul {
+            border-bottom: 1px solid #eee;
+            width: 155px;
+            float: left;
+            padding: 0 10px 15px;
+            li {
+                text-overflow: clip;
+                display: block;
+                overflow: hidden;
+                width: 155px;
+                float: left;
+                height: 28px;
+                a {
+                    font: 400 14px/28px "Microsoft YaHei";
+                    color: #626262;a
+                    img {
+                        // display: block;
+                        font-size: 12px;
+                        vertical-align: middle;
+                        border: 0;
+                    }
+                }
+            }
+        }
+        a {
+            color: #666;
+            text-decoration: none;
+            outline: 0;
+            cursor: pointer;
+        }
+    }
+}
+
 .rec_box{
-    background: burlywood;
     width: 1200px;
     min-height: 270px;
     margin: 0 auto;
@@ -8,7 +61,7 @@
         float: left;
         width: 1010px;
         height: 266px;
-        margin-bottom: 20px;
+        padding-bottom: 20px;
         .rec_l {
             background-color: #f8f8f6;
             border-right: 1px solid #c2d58f;
@@ -20,7 +73,7 @@
             height: 264px;
             position: relative;
             z-index: 0; 
-            dl {
+            .fa{
                 height: 44px;
                 float: left;
                 dt {
@@ -48,6 +101,9 @@
                         }
                     }
                 }
+                .move{
+                    display:block;
+                }
                 dd {
                     border-top: 1px solid #c2d58f;
                     position: absolute;
@@ -56,11 +112,12 @@
                     z-index: 4;
                     width: 885px;
                     height: 265px;
-                    // display: none;
+                    display: none;
                     .rec_prc{
                         width: 885px;
                         height: 265px;
                         float: left;
+                        overflow: hidden;
                         ul li {
                             border-bottom: 1px solid #c2d58f;
                             width: 176px;
@@ -159,6 +216,9 @@
                         }
                     }
                 }
+                // &:hover dd{
+                //     display: block;
+                // }
             }
         }
 

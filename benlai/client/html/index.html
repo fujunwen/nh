@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/Slider.js"></script>
-    <script src="../js/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="../css/reset.css"><!--清除默认样式-->
+    <link rel="stylesheet" href="../css/index.css"><!--主页面样式-->
+    <link rel="stylesheet" href="../css/style.css"><!--轮播图样式-->
+    <link rel="stylesheet" href="../css/rec.css"><!--推荐样式-->
+    <link rel="stylesheet" href="../css/veg.css"><!--蔬菜样式-->
+    <script src="../js/Slider.js"></script><!--轮播图-->
+    <script src="../js/jquery-3.4.1.js"></script><!---->
+    <script src="../js/rec.js"></script><!--推荐js-->
+    <script src="../js/veg.js"></script><!--蔬菜js-->
+    <script src="../js/fruits.js"></script><!--水果js-->
 </head>
 
 <body>
@@ -380,9 +385,24 @@
             "//image.benlailife.com/images/gz/banner/20200501/sjjg19.jpg",
             "//image.benlailife.com/images/gz/banner/20200601/sjfz21.jpg"])).init())
     </script>
-
-
-
+    <!--热门推荐-->
+    <div class="praise">
+        <div class="ann">
+            <div class="tit">公告信息</div>
+            <ul>
+                <li> <a href="#">邮储借记卡【满60减30】活动内容</a> </li>
+                <li> <a href="#">《本来生活账户注销须知》《本来生活隐私政策》更新提示公告</a> </li>
+                <li> <a href="#">工行e支付【满100减30】活动内容</a> </li>
+            </ul>
+            <a href=""><img src="//image.benlailife.com/images/gz/banner/20200301/pufa4.jpg" alt=""></a>
+        </div>
+    </div>
+    <!--蔬菜-->
+    <div class="veg">
+    </div>
+    <!--水果-->
+    <div class="fruits">
+    </div>
     <!--尾部-->
     <div class="footer">
         <!--横条-->
@@ -449,9 +469,9 @@
                 <dd>
                     <span>
                         <!-- <a href="https://ss.knet.cn/verifyseal.dll?sn=e12111611010037041000000&ct=df&a=1&pa=870245">-->
-                            <img src="../img/sfyz.jpg" alt="">
+                        <img src="../img/sfyz.jpg" alt="">
                         <!-- <a href="https://webcert.cnmstl.net/cert/grade?sn=3ea9ff5864b111e9926600163e068ceb"> -->
-                            <img src="../img/sfyz2.png" alt="">
+                        <img src="../img/sfyz2.png" alt="">
                     </span>
                 </dd>
             </dl>
@@ -460,4 +480,10 @@
     </div>
 </body>
 
+    <script>
+        $.getJSON("../json/rec.json", (data) => (new Praise(data)).init());
+        $.getJSON("../json/veg.json", (data) => (new Veg(data)).init());
+        $.getJSON("../json/fruits.json", (data) => (new Fru(data)).init());
+
+    </script>
 </html>

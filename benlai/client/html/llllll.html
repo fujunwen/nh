@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/gy.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/veg.js"></script>
+</head>
+<body>
+    
+</body>
+
+<script>
+    $.getJSON("../json/veg.json", (data) => (new Manager(data)).init())
+    $.getJSON("../json/fruits.json", (data) => (new Manager(data)).init())
+</script>
+</html>
