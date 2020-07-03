@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/gy.css">
+    <link rel="stylesheet" href="../css/cg.css">
     <link rel="stylesheet" href="../css/reset.css">
     <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/veg.js"></script>
+    <script src="../js/cg.js"></script>
 </head>
 <body>
-    
+    <!-- <div class="high-box">
+        <div class="high-t">
+            <dl>
+                <dd><a href="#">尖货挑选</a> </dd>
+            </dl>
+        </div>
+        <div class="hi gh-b">
+            <dd>
+                <ul>
+                    <li>
+                        <div class="box">
+                            <p class="pic"><img src="//image.benlailife.com/ProductImages/000/000/323/286/medium/f5fa2b1a-4171-40f2-adb3-4c64a508284d.jpg" alt=""></p>
+                            <p class="name"><font>TOUSH'S越南黑虎虾40/50  400g(16-20个)/盒</font></p>
+                            <p class="price">￥44.90 </p>
+                            <p class="btn"> <a href="#"></a></p>
+                        </div>
+                    </li>
+                </ul>
+            <dd>
+        </div>
+    </div> -->
 </body>
 
 <script>
-    $.getJSON("../json/veg.json", (data) => (new Manager(data)).init())
-    $.getJSON("../json/fruits.json", (data) => (new Manager(data)).init())
+
+$.getJSON("../json/give.json", (data) => (new Give(data)).init());
 </script>
 </html>

@@ -46,7 +46,7 @@ class Give {
 
 
         this.root = $(html);
-        this.root.appendTo("body");
+        this.root.appendTo(".give");
     }
     addEventHandler() {
         $(".high-t").children("dl").children("dd").mouseenter(function () {

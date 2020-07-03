@@ -71,13 +71,13 @@ class Slider {
         //    let navItems = Array.from(this.sliderNav.children);
         //    navItems = this.sliderNav.children()
         this.sliderNav.children().each((idx, item) => {
-            console.log("item", item, "idx", idx)
+            // console.log("item", item, "idx", idx)
             item.onclick = function () {
                 // console.log(this, idx);
                 /* 当点击焦点的时候：(1) 设置当前标签的选中状态 (2) 切换显示对应的图片 */
                 // navItems.forEach(item => item.classList.remove("active"));
                 // this.classList.add("active");
-                console.log("+++");
+                // console.log("+++");
                 self.selectSliderNavItem(idx);
                 self.index = idx;
                 //    self.sliderBox.style.left = -(self.index * self.sliderBoxItemWidth) + "px";
@@ -116,13 +116,13 @@ class Slider {
         this.sliderNav.html(this.data.map((item, idx) => `<li class="slider-nav-item ${idx == 0 ? "active" : ""}">${idx + 1}</li>
                 `).join(""));
     }
-    setSliderItemBackgroundColor() {
-        Array.from(this.sliderBox.children).forEach(item => item.style.background = this.getRandomColor())
-    }
-    getRandomColor() {
-        let r = parseInt(Math.random() * 256);
-        let g = parseInt(Math.random() * 256)
-        let b = parseInt(Math.random() * 256)
-        return `rgb(${r},${g},${b})`;
-    }
+    // setSliderItemBackgroundColor() {
+    //     Array.from(this.sliderBox.children).forEach(item => item.style.background = this.getRandomColor())
+    // }
+    // getRandomColor() {
+    //     let r = parseInt(Math.random() * 256);
+    //     let g = parseInt(Math.random() * 256)
+    //     let b = parseInt(Math.random() * 256)
+    //     return `rgb(${r},${g},${b})`;
+    // }
 }

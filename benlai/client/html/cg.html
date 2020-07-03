@@ -1,20 +1,1056 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/gy.css">
     <link rel="stylesheet" href="../css/reset.css">
+    <!--清除默认样式-->
+    <link rel="stylesheet" href="../css/index copy.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--轮播图样式-->
+    <script src="../js/Slider.js"></script>
+    <!--轮播图-->
     <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/veg.js"></script>
-    <!-- <script src="../js/rec.js"></script> -->
+
+    <!---->
+    <script src="../js/cg.js"></script>
 </head>
+
 <body>
-    
+    <!--头部开始-->
+    <div class="head">
+        <!--公共头部-->
+        <div class="head_top">
+            <div class="head_top_box">
+                <div class="login" id="welcome_login">您好，请<a href="./login.html">[登录]</a><a
+                        href="./register.html">[注册]</a></div>
+                <div class="head_city" id="local"><a href="#">送至：<font id="deliveryName">广州</font>
+                    </a></div>
+                <div class="head_menu">
+                    <ul>
+                        <li><s></s>
+                            <div class="menu_word"><a href="/myorder.html">我的订单</a></div>
+                        </li>
+                        <li>
+                            <div class="menu_word"><a href="/giftcard.html">本来礼品</a></div>
+                        </li>
+                        <li>
+                            <div class="head_twocode">
+                                <dl>
+                                    <dt><a href="https://www.benlai.com/MobileBenlai.jsp">掌上本来</a>
+                                        <div class="head_bg"></div>
+                                    </dt>
+                                    <dd><img src="//image.benlailife.com/webStatic/images/top/App_QR_Code_3de39ad3.png"
+                                            width="100" height="100" alt="">
+                                        <p>扫描下载客户端</p>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="head_service">
+                                <dl>
+                                    <dt><a href="javascript:void(0)">客户服务</a>
+                                        <div class="head_bg"></div>
+                                    </dt>
+                                    <dd>
+                                        <p><a href="javascript:void(0)" class="zhiCustomBtn"
+                                                data-type="easemob">在线客服</a></p>
+                                        <p><a href="/help-7.html" target="_blank">联系客服</a></p>
+                                        <p><a href="/help-40.html" target="_blank">销售热线</a></p>
+                                        <p><a href="/help.html" target="_blank">帮助中心</a></p>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--头部广告-->
+        <div class="head_top_bar">
+            <img src="../img/lb-1.jpg" alt="">
+        </div>
+        <!--logo部分-->
+        <div class="head_logo">
+            <div class="head_logo_box">
+                <!--logo-->
+                <h1>
+                    <a href="index.html">
+                        <img src="../img/logo.gif" alt="">
+                    </a>
+                </h1>
+                <!--购物车-->
+                <div class="head_car">
+                    <dl>
+                        <dt>
+                            <div class="buy_quantity">0</div>
+                            <a href=""><s></s>购物车</a>
+                        </dt>
+                    </dl>
+                </div>
+                <!--我的本来-->
+                <div class="head_my">
+                    <dl>
+                        <dt>
+                            <a href="./login.html"><s></s>我的本来</a>
+                        </dt>
+                    </dl>
+                </div>
+                <!--搜索框-->
+                <div class="head_search">
+                    <div class="search_box">
+                        <input type="text" name="" id="" value="" placeholder="新西兰水果">
+                        <a href=""></a>
+                    </div>
+                    <div class="search_word">
+                        <em><a href="#" target="_blank">佳沛金果</a></em>
+                        <em><a href="#" target="_blank">榴莲</a></em>
+                        <em><a href="#" target="_blank">小龙虾</a></em>
+                        <em><a href="#" target="_blank">鸡蛋</a></em>
+                        <em><a href="#" target="_blank">牛肉</a></em>
+                        <em><a href="#" target="_blank">冰淇淋</a></em>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--导航条-->
+        <div class="head_menu_nav">
+            <div class="head_menu_box">
+                <!--总分类-->
+                <div class="head_menu_all">
+                    <!--所有分类-->
+                    <div class="tit_all">
+                        <a href="#">所有商品分类</a>
+                    </div>
+                    <div class="tit_sort" style="display:block">
+                        <dl>
+                            <dt class="sort_bg1"><a href="#">镇店之宝</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">本来推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">范德萨发热</a></em>
+                                                <em><a href="#">反倒是地方</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">生活品质</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">料理之位</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">范德萨发热</a></em>
+                                                <em><a href="#">反倒是地方</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">有机食物</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg2"><a href="#">水果</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">车厘子</a></em>
+                                                <em><a href="#">荔枝</a></em>
+                                                <em><a href="#">橙子</a></em>
+                                                <em><a href="#">火龙果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">进口水果</a></em>
+                                                <em><a href="#">西瓜</a></em>
+                                                <em><a href="#">菠萝</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">精选水果</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">进口水果</a></em>
+                                                <em><a href="#">西瓜</a></em>
+                                                <em><a href="#">菠萝</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/组合</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg3"><a href="#">蔬菜</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">有机蔬菜</a></em>
+                                                <em><a href="#">神态蔬菜</a></em>
+                                                <em><a href="#">低于特殊</a></em>
+                                                <em><a href="#">番茄</a></em>
+                                                <em><a href="#">玉米</a></em>
+                                                <em><a href="#">博彩/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">新鲜蔬菜</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/宅急送</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">鲜花</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg4"><a href="#">肉禽蛋类</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">牛肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">羊肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">猪肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">禽类</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">蛋类</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/组合</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">肉制品</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg5"><a href="#">水产海鲜</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">有机蔬菜</a></em>
+                                                <em><a href="#">神态蔬菜</a></em>
+                                                <em><a href="#">低于特殊</a></em>
+                                                <em><a href="#">番茄</a></em>
+                                                <em><a href="#">玉米</a></em>
+                                                <em><a href="#">博彩/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">新鲜蔬菜</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/宅急送</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">鲜花</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg6"><a href="#">熟食面点</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">本来推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">范德萨发热</a></em>
+                                                <em><a href="#">反倒是地方</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">生活品质</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">料理之位</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">范德萨发热</a></em>
+                                                <em><a href="#">反倒是地方</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">有机食物</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg7"><a href="#">粮油面食</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">牛肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">羊肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">猪肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">禽类</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">蛋类</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/组合</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">肉制品</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg8"><a href="#">乳品烘焙</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">有机蔬菜</a></em>
+                                                <em><a href="#">神态蔬菜</a></em>
+                                                <em><a href="#">低于特殊</a></em>
+                                                <em><a href="#">番茄</a></em>
+                                                <em><a href="#">玉米</a></em>
+                                                <em><a href="#">博彩/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">新鲜蔬菜</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/宅急送</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">鲜花</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg9"><a href="#">休闲食品</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">车厘子</a></em>
+                                                <em><a href="#">荔枝</a></em>
+                                                <em><a href="#">橙子</a></em>
+                                                <em><a href="#">火龙果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">进口水果</a></em>
+                                                <em><a href="#">西瓜</a></em>
+                                                <em><a href="#">菠萝</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">精选水果</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">进口水果</a></em>
+                                                <em><a href="#">西瓜</a></em>
+                                                <em><a href="#">菠萝</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/组合</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg10"><a href="#">酒水茶饮</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">本来推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">范德萨发热</a></em>
+                                                <em><a href="#">反倒是地方</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">生活品质</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">料理之位</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">范德萨发热</a></em>
+                                                <em><a href="#">反倒是地方</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">有机食物</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg11"><a href="#">厨房用品</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">牛肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">羊肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">佳沛奇异果</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">猪肉</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">禽类</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">东南亚水果</a></em>
+                                                <em><a href="#">车厘子/樱桃</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">蛋类</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/组合</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">质奖</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">肉制品</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">狗头人v</a></em>
+                                                <em><a href="#">刚发的</a></em>
+                                                <em><a href="#">匠心品刚发的质奖</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt class="sort_bg12"><a href="#">礼品礼盒</a></dt>
+                            <dd style="width: 600px;">
+                                <div class="tit_list">
+                                    <ul>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">热门推荐</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">有机蔬菜</a></em>
+                                                <em><a href="#">神态蔬菜</a></em>
+                                                <em><a href="#">低于特殊</a></em>
+                                                <em><a href="#">番茄</a></em>
+                                                <em><a href="#">玉米</a></em>
+                                                <em><a href="#">博彩/樱桃</a></em>
+                                                <em><a href="#">泰森鸡肉</a></em>
+                                                <em><a href="#">冰鲜尖货</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">新鲜蔬菜</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">而寡妇欧文</a></em>
+                                                <em><a href="#">大数据库的</a></em>
+                                                <em><a href="#">打多少</a></em>
+                                                <em><a href="#">佛挡杀佛</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">礼盒/宅急送</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                                <em><a href="#">va水果</a></em>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="tit_list_l">
+                                                <a href="#">鲜花</a>
+                                            </div>
+                                            <div class="tit_list_r">
+                                                <em><a href="#">匠心品质奖</a></em>
+                                                <em><a href="#">黄次奥不落</a></em>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <!--导航分类-->
+                <div class="head_menu_r">
+                    <ul>
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">本来扶贫</a></li>
+                        <li><a href="#">台湾特产</a></li>
+                        <li>
+                            <img src="//image3.benlailife.com//OnlineHomePageImage/2/images/53bb41ec-bfa8-44ad-99f4-5c276451eb3c.jpg"
+                                alt="">
+                            <a href="#">韩国馆</a></li>
+                        <li><a href="#">充值</a></li>
+                        <li><a href="#">全国配</a></li>
+                        <li><a href="#">本来礼品</a></li>
+                        <li><a href="#">台创园</a></li>
+                        <li><a href="#">兑换专区</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".center").html((new Slider(["//image.benlailife.com/images/gz/banner/20200601/0622hgg.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjdzx30.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjsr26.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjlz22.jpg",
+            "//image.benlailife.com/images/gz/banner/20200501/sjjg19.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjfz21.jpg"])).init())
+    </script>
 </body>
 
-<script>
-    $.getJSON("../json/veg.json", (data) => (new Manager(data)).init())
-</script>
 </html>
