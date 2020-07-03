@@ -5,33 +5,34 @@
   margin: 0 auto;
 }
 .anc span {
-  width: 50px;
-  height: 300px;
+  width: 40px;
   position: fixed;
-  left: 10%;
-  top: 200px;
+  left: 90%;
+  bottom: 1%;
   margin: 0 auto;
-  z-index: -1;
+  z-index: 1;
 }
 .anc span a {
   display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d6d6d6;
+  border-radius: 20px;
   margin-bottom: 10px;
-  font-size: 25px;
-  line-height: 50px;
-  background: #0ff16d;
-  color: #6fbd6f;
+  font-size: 16px;
+  line-height: 40px;
+  background: #ffffff;
+  color: #e6e6e6;
   text-align: center;
 }
 .anc span a:hover {
-  color: #000;
-  background: #79faaf;
+  color: #d1d1d1;
+  background: #009607;
 }
 .head {
   width: 100%;
   color: #3e4141;
+  z-index: 2;
 }
 .head .head_top {
   width: 100%;
@@ -538,6 +539,7 @@
 .footer .footer_bar_box {
   width: 100%;
   background: #f8f8f6;
+  z-index: -2;
 }
 .footer .footer_bar_box .footer_bar {
   width: 1200px;

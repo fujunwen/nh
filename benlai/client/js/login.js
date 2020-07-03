@@ -12,7 +12,10 @@ $(() => {
     $("#btn").click(function () {
         let phone = $.trim($("#phone-ID").val());
         console.log(phone);
-        let password = $.trim($("#password-ID").val());
+        let pass = $.trim($("#password-ID").val());
+        // `phone=${phone}&password=${md5(pass).slice(0, 15)};
+        let password = md5(pass).slice(0,15);
+        console.log(password);
 
         /* 先检查用户名和密码和是否勾选，都满足则发请求 */
         if (phone.length == 0) {
@@ -29,21 +32,23 @@ $(() => {
             alert("请阅读并同意用户协议");
             return;
         }*/
-
         $.ajax({
-            type: "post",
             url: "../../server/login.php",
+            type: "post",
+            data: { phone,password},
             dataType: "json",
-            data: `phone=${phone}&password=${md5(password).slice(0, 15)}`
         }).done(data => {
             // alert(data.msg);
             /* 如果 */
+            console.log("++++");
             if (data.status == "success") {
-                alert(data.msg);
+                alert(data.data.msg);
                 /* 跳转 */
-                location.href = "../html/index.html";
+                localStorage.setItem("user_id", data.data.userId);
+                localStorage.setItem("user_name", data.data.username);
+                location.href = "list.html";
             } else {
-                alert(data.msg);
+                alert(data.data.msg);
             }
         })
 

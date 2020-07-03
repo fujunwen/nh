@@ -4,28 +4,28 @@
     position: relative;
     margin: 0 auto;
     span{
-        width: 50px;
-        height: 300px;
+        width: 40px;
         position: fixed;
-        left: 10%;
-        top:200px;
+        left: 90%;
+        bottom:1%;
         // background: #000;
         margin: 0 auto;
-        z-index: -1;
+        z-index: 1;
         a{
             display: block;
-            width: 50px;
-            height: 50px;
-            border-radius: 25px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #d6d6d6;
+            border-radius: 20px;
             margin-bottom: 10px;
-            font-size: 25px;
-            line-height: 50px;
-            background: rgb(15, 241, 109);
-            color:rgb(111, 189, 111);
+            font-size: 16px;
+            line-height: 40px;
+            background: rgb(255, 255, 255);
+            color:rgb(230, 230, 230);
             text-align: center;
             &:hover{
-                color: #000;
-                background: rgb(121, 250, 175);
+                color: rgb(209, 209, 209);
+                background: rgb(0, 150, 7);
             }
         }
     }
@@ -36,6 +36,7 @@
 .head {
     width: 100%;
     color: #3e4141;
+    z-index: 2;
     // <!--公共头部-->
     .head_top {
         width: 100%;
@@ -567,6 +568,7 @@
     .footer_bar_box{
         width: 100%;
         background: #f8f8f6;
+        z-index: -2;
         .footer_bar{
             width: 1200px;
             height: 120px;

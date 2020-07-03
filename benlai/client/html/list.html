@@ -5,15 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/list.css">
+    <!--列表页样式-->
     <script src="../js/jquery-3.4.1.js"></script>
-    <script src="../js/md5.js"></script>
     <script src="../js/list.js"></script>
     <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
+    <style>
+        a {
+            text-decoration: none !important;
+        }
+    </style>
 </head>
 
 <body>
@@ -85,7 +90,7 @@
                     <dl>
                         <dt>
                             <div class="buy_quantity">0</div>
-                            <a href=""><s></s>购物车</a>
+                            <a href="cart.html"><s></s>购物车</a>
                         </dt>
                     </dl>
                 </div>
@@ -128,7 +133,7 @@
                 <li data-sort="price_asc">价格从低到高</li>
                 <li data-sort="price_desc">价格从高到低</li>
             </ul>
-            <div id="cart"></div>
+            <!-- <div id="cart"></div> -->
         </div>
         <div>
             <ul class="box-list">
@@ -158,7 +163,6 @@
                 <img src="../img/bar.png" alt="">
             </div>
         </div>
-        <!--指南-->
     </div>
 </body>
 
