@@ -64,9 +64,7 @@ body {
 }
 
 .next {
-    /* float: right; */
-    /* margin-right: 20px; */
-    margin-left: 960px;
+    margin-left: 925px;
     background: #fff;
     width: 24px;
     height: 48px;
@@ -90,7 +88,7 @@ body {
     margin: 0 3px;
     text-align: center;
     padding: 0 10px;
-    width: 144px;
+    width: 138px;
     height: 30px;
     line-height: 30px;
 }

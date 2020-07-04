@@ -41,34 +41,41 @@
 }
 .head .head_top .head_top_box {
   width: 1200px;
+  height: 30px;
   margin: 0 auto;
   position: relative;
   z-index: 79;
   font-size: 12px;
 }
 .head .head_top .head_top_box .login {
+  width: 100%;
   color: #3e4141;
   line-height: 30px;
-  float: left;
   margin-right: 20px;
 }
-.head .head_top .head_top_box .login a {
-  color: #ff6900;
-  margin: 0 0 0 5px;
-}
-.head .head_top .head_top_box .welcome_login {
+.head .head_top .head_top_box .login .user {
+  width: 200px;
+  float: left;
   font-family: "宋体", "Arial Narrow", HELVETICA;
   font-size: 12px;
   color: #333;
   padding: 0;
   margin: 0;
 }
-.head .head_top .head_top_box .head_city {
+.head .head_top .head_top_box .login .user span {
+  display: block;
+  float: left;
+}
+.head .head_top .head_top_box .login .user span a {
+  color: #ff6900;
+  margin: 0 0 0 5px;
+}
+.head .head_top .head_top_box .login .head_city {
   float: left;
   background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -43px no-repeat;
   padding-left: 34px;
 }
-.head .head_top .head_top_box .head_city a {
+.head .head_top .head_top_box .login .head_city a {
   text-align: left;
   line-height: 22px;
   color: #3e4141;
@@ -78,36 +85,36 @@
   overflow: hidden;
   padding-right: 10px;
 }
-.head .head_top .head_top_box .head_menu {
+.head .head_top .head_top_box .login .head_menu {
   float: right;
   height: 30px;
   line-height: 30px;
 }
-.head .head_top .head_top_box .head_menu li {
+.head .head_top .head_top_box .login .head_menu li {
   float: left;
   position: relative;
   background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) right -79px no-repeat;
 }
-.head .head_top .head_top_box .head_menu .menu_word {
+.head .head_top .head_top_box .login .head_menu .menu_word {
   margin: 0 15px;
 }
-.head .head_top .head_top_box .head_menu .menu_word a {
+.head .head_top .head_top_box .login .head_menu .menu_word a {
   color: #000;
   margin: 0 5px;
 }
-.head .head_top .head_top_box .head_menu .head_twocode {
+.head .head_top .head_top_box .login .head_menu .head_twocode {
   float: left;
 }
-.head .head_top .head_top_box .head_menu .head_twocode dl {
+.head .head_top .head_top_box .login .head_menu .head_twocode dl {
   width: 101px;
   height: 30px;
   display: block;
 }
-.head .head_top .head_top_box .head_menu .head_twocode dl dt {
+.head .head_top .head_top_box .login .head_menu .head_twocode dl dt {
   display: block;
 }
-.head .head_top .head_top_box .head_menu .head_twocode dl dt a {
-  width: 71px;
+.head .head_top .head_top_box .login .head_menu .head_twocode dl dt a {
+  width: 100px;
   padding: 0 0 0 30px;
   display: block;
   background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ipico01_dfa609de.gif) 11px 4px no-repeat;
@@ -115,10 +122,10 @@
   color: #3e4141;
   text-decoration: none;
 }
-.head .head_top .head_top_box .head_menu .head_twocode dl dt div {
+.head .head_top .head_top_box .login .head_menu .head_twocode dl dt div {
   display: block;
 }
-.head .head_top .head_top_box .head_menu .head_twocode dl dd {
+.head .head_top .head_top_box .login .head_menu .head_twocode dl dd {
   width: 93px;
   position: absolute;
   margin-left: 0;
@@ -133,20 +140,20 @@
   border-right: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
 }
-.head .head_top .head_top_box .head_menu .head_twocode dl dd p {
+.head .head_top .head_top_box .login .head_menu .head_twocode dl dd p {
   color: #3e4141;
   line-height: 40px;
   text-align: center;
 }
-.head .head_top .head_top_box .head_menu .head_service dl {
+.head .head_top .head_top_box .login .head_menu .head_service dl {
   width: 87px;
   height: 30px;
   display: block;
 }
-.head .head_top .head_top_box .head_menu .head_service dl dt {
+.head .head_top .head_top_box .login .head_menu .head_service dl dt {
   display: block;
 }
-.head .head_top .head_top_box .head_menu .head_service dl dt a {
+.head .head_top .head_top_box .login .head_menu .head_service dl dt a {
   width: 73px;
   padding: 0 0 0 14px;
   display: block;
@@ -155,7 +162,7 @@
   color: #3e4141;
   text-decoration: none;
 }
-.head .head_top .head_top_box .head_menu .head_service dl dd {
+.head .head_top .head_top_box .login .head_menu .head_service dl dd {
   width: 79px;
   position: absolute;
   top: 30px;
@@ -172,7 +179,7 @@
 .head .head_top_bar {
   width: 1920px;
   height: 60px;
-  margin: 30px auto 0;
+  margin: 0px auto 0;
 }
 .head .head_top_bar img {
   display: block;

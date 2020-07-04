@@ -1,4 +1,25 @@
 $(() => {
+    let user_id = localStorage.getItem("user_id") || "";
+    let user_name = localStorage.getItem("user_name") || "";
+    console.log(user_id, user_name);
+    if (user_id && user_name) {
+        $(".userInfo").text(`${user_name}:欢迎您`);
+        $(".status").children("a").text("注销");
+    } else {
+        $(".userInfo").text(`匿名用户:欢迎您请先 `);
+        $(".status").children("a").text("登录");
+    }
+
+    $(".status").click(function() {
+        if ($(this).children("a").text() == "登录") {
+            location.href = "./login.html";
+        } else {
+            localStorage.removeItem("user_id")
+            localStorage.removeItem("user_name");
+            /* 重新加载 */
+            window.location.reload();
+        }
+    })
     $("#rember").click(function () {
         let rember = $("#rember").is(":checked");
         if (rember) {

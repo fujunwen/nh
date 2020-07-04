@@ -7,14 +7,14 @@ $(() => {
     console.log(user_id, user_name);
     if (user_id && user_name) {
         $(".userInfo").text(`${user_name}:欢迎您`);
-        $(".status").text("注销");
+        $(".status").children("a").text("注销");
     } else {
-        $(".userInfo").text(`匿名用户:欢迎您`);
-        $(".status").text("登录");
+        $(".userInfo").text(`匿名用户:欢迎您请先 `);
+        $(".status").children("a").text("登录");
     }
 
     $(".status").click(function() {
-        if ($(this).text() == "登录") {
+        if ($(this).children("a").text() == "登录") {
             location.href = "./login.html";
         } else {
             localStorage.removeItem("user_id")
@@ -40,7 +40,6 @@ $(() => {
     //     { store: "皮皮虾" }
     // ]
 
-
     function renderUI(orderData) {
         // console.log(orderData);
         let html = "";
@@ -51,41 +50,41 @@ $(() => {
                 return `
                 <ul class="order_lists order_item" gid=${item.good_id}>
                 <li class="list_chk">
-                  <input type="checkbox" class="son_check">
-                  <label></label>
+                    <input type="checkbox" class="son_check">
+                    <label></label>
                 </li>
                 <li class="list_con">
-                  <div class="list_img"><img src=${item.src} alt=""></div>
-                  <div class="list_text">${item.title}</div>
+                    <div class="list_img"><img src=${item.src} alt=""></div>
+                    <div class="list_text">${item.name}</div>
                 </li>
                 <li class="list_price">
-                  <p class="price">￥${item.price}</p>
+                    <p class="price">￥${item.price}</p>
                 </li>
                 <li class="list_amount">
-                  <div class="amount_box">
+                    <div class="amount_box">
                     <a href="javascript:;" class="reduce">-</a>
                     <input type="text" value=${item.num} class="sum">
                     <a href="javascript:;" class="plus">+</a>
-                  </div>
+                    </div>
                 </li>
                 <li class="list_sum">
                   <p class="sum_price" data-price="23">￥${item.num * item.price}</p>
                 </li>
                 <li class="list_op">
-                  <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
+                    <p class="del"><a href="javascript:;" class="delBtn">移除商品</a></p>
                 </li>
-              </ul>
+                </ul>
                 `
             }).join("");
 
             let cartBoxHtml = `<div class="cartBox">
             <div class="shop_info">
                     <div class="all_check">
-                      <input type="checkbox" id="shop_a" class="shopChoice">
-                      <label for="shop_a" class="shop"></label>
+                        <input type="checkbox" id="shop_a" class="shopChoice">
+                        <label for="shop_a" class="shop"></label>
                     </div>
                     <div class="shop_name">
-                      店铺：<a href="">${data.store}</a>
+                        特点：<a href="">${data.store}</a>
                     </div>
             </div>
             <div class="order_content">${listHtml}</div>
@@ -115,30 +114,62 @@ $(() => {
                 }
             })
         })
+        console.log("-----------------");
         return arr;
     }
-
+    
     /* 全选的功能：点击的时候切换选中的状态(改变自己的状态 + 改变所有其他复选框的状态) */
-    $("#all").click(function() {
-        // console.log(this, $(this).is(":checked"));
-        $(this).next().toggleClass("mark");
-        $(".cartBox").find("input[type=checkbox]").next().toggleClass("mark");
-        computedTotal();
-    })
 
+    $(document).on("click","label",function(){
+        $(this).toggleClass("mark");
+    } )
+    // // });
+    $(document).on("click", ".shop", function () {
+        // console.log($(this).parent().parent().next().find(".mark").length);
+        let mknum = $(this).parent().parent().next().find(".mark").length;
+        // console.log($(this).parent().parent().next().children().children().children("label").length);
+        let biptnum = $(this).parent().parent().next().children().children().children("label").length;
+        // console.log(biptnum);
+        if(mknum != biptnum){
+            $(this).addClass("mark");
+            $(this).parent().parent().next().find("input[type=checkbox]").next().addClass("mark");
+        }else{
+            $(this).removeClass("mark");
+            $(this).parent().parent().next().find("input[type=checkbox]").next().removeClass("mark");
+        }
+    });
+
+    $("#all").click(function () {
+        $(this).toggleClass("mark");
+        // console.log(document.querySelector(".cartMain").querySelectorAll("label").length);
+        let iptnum = document.querySelector(".cartMain").querySelectorAll("label").length;
+
+        if ($(".mark").length == iptnum) {
+            $(this).next().removeClass("mark");
+            $(".cartBox").find("input[type=checkbox]").next().removeClass("mark");
+        }else{
+            $(this).next().addClass("mark");
+            $(".cartBox").find("input[type=checkbox]").next().addClass("mark");
+        }
+
+        // if (!$(this).next().css) {
+        //     $(".cartBox").find("input[type=checkbox]").next().addClass("mark");
+        // }
+        computedTotal();
+    });
 
     /* 封装方法计算商品的总数和总价 */
     function computedTotal() {
         // let flag = $(".order_item").find(".son_check").next().hasClass("mark");
-        let ele = $(".order_item").filter(function() {
+        let ele = $(".order_item").filter(function () {
             return $(".son_check", this).next().hasClass("mark") == true;
         })
 
         /* 计算数量 */
         let total = 0;
         let totalPrice = 0;
-        ele.each(function(index, item) {
-            console.log(index, item, $(item).find(".sum").val(), $(item).find(".sum_price").text().slice(1));
+        ele.each(function (index, item) {
+            // console.log(index, item, $(item).find(".sum").val(), $(item).find(".sum_price").text().slice(1));
             total += $(item).find(".sum").val() * 1;
             totalPrice += $(item).find(".sum_price").text().slice(1) * 1;
         })
@@ -146,4 +177,5 @@ $(() => {
         $(".piece_num").text(total);
         $(".total_text").text("￥" + totalPrice.toFixed(2));
     }
+
 })

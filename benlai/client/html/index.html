@@ -33,8 +33,10 @@
         <!--公共头部-->
         <div class="head_top">
             <div class="head_top_box">
-                <div class="login" id="welcome_login">您好，请<a href="./login.html">[登录]</a><a
-                        href="./register.html">[注册]</a></div>
+                <div class="login">
+                    <div class="user">
+                        <span class="userInfo"></span><span class="status"><a>注销</a> </span>
+                    </div>
                 <div class="head_city" id="local"><a href="#">送至：<font id="deliveryName">广州</font>
                     </a></div>
                 <div class="head_menu">
@@ -1054,14 +1056,9 @@
     </div>
     <!--中间部分-->
     <!--轮播图-->
-    <script>
-        $(".center").html((new Slider(["//image.benlailife.com/images/gz/banner/20200601/0622hgg.jpg",
-            "//image.benlailife.com/images/gz/banner/20200601/sjdzx30.jpg",
-            "//image.benlailife.com/images/gz/banner/20200601/sjsr26.jpg",
-            "//image.benlailife.com/images/gz/banner/20200601/sjlz22.jpg",
-            "//image.benlailife.com/images/gz/banner/20200501/sjjg19.jpg",
-            "//image.benlailife.com/images/gz/banner/20200601/sjfz21.jpg"])).init())
-    </script>
+    <div class="slideshow">
+
+    </div>
     <!--热门推荐-->
     <div class="praise">
         <div class="ann">
@@ -1166,6 +1163,12 @@
         $.getJSON("../json/veg.json", (data) => (new Veg(data)).init());
         $.getJSON("../json/fruits.json", (data) => (new Fru(data)).init());
         $.getJSON("../json/give.json", (data) => (new Give(data)).init());
+        $(".center").html((new Slider(["//image.benlailife.com/images/gz/banner/20200601/0622hgg.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjdzx30.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjsr26.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjlz22.jpg",
+            "//image.benlailife.com/images/gz/banner/20200501/sjjg19.jpg",
+            "//image.benlailife.com/images/gz/banner/20200601/sjfz21.jpg"])).init());
 
     </script>
 </html>

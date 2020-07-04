@@ -1,166 +1,1258 @@
-.high-box{
-    margin: 0 auto 20px;
-    width: 1200px;
-    height: 470px;
+html,
+body {
     position: relative;
-    background: url(//image.benlailife.com/OnlineHomePageImage/0/0/3e4a4a10-daf4-4d39-b63c-ce84b4bd4d1d.jpg);
-    .high-t{
-        float: left;
-        width: 1200px;
-        height: 170px;
-        // background: url(//image.benlailife.com/webStatic/images/n_index/n_path_c5a3e09b.png) no-repeat;
-        dl{
-            font-family: "宋体","Arial Narrow",HELVETICA;
-            width: 100%;
-            height: 100%;
-            font-size: 12px;   
+    width: 100%;
+}
+/* -----------------------------------------头部------------------------------------------ */
+/*{// #head {
+//     height: 36px;
+//     background: #f1f1f1;
+//     border-bottom: 1px solid #e9e9e9;
+// }
+// .favorite em,
+// .tell em {
+//     background: url(https://s.maiyaole.com/images/201306/images/common_sprite.png?t==20141218) no-repeat right 0;
+//     // display: inline;
+//     float: left;
+//     cursor: pointer;
+// }
+// .tell {
+//     em {
+//         background-position: right -108px;
+//         width: 9px;
+//         height: 20px;
+//         margin-top: 8px;
+//         margin-right: 0px;
+//         overflow: hidden;
+//     }
+// }
+// .favorite {
+//     em {
+//         background-position: right -61px;
+//         width: 15px;
+//         margin-left: -2px;
+//         margin-right: 5px;
+//         height: 20px;
+//         margin-top: 8px;
+//         margin-right: 5px;
+//         overflow: hidden;
+//     }
+// }
+// .ult {
+//     float: left;
+//     li {
+//         float: left;
+//         a {
+//             &:first-child {
+//                 border-right: 1px solid #ccc;
+//                 padding: 0 10px 0 0;
+//             }
+//         }
+//     }
+//     div {
+//         margin: 0 0 0 10px;
+//     }
+//     .province {
+//         margin: 0 0 0 5px;
+//     }
+// }
+// .head a,
+// .head span {
+//     font-size: 12px;
+//     text-align: center;
+//     line-height: 36px;
+//     color: #5e5e5e;
+// }
+// .province_box {
+//     position: relative;
+//     z-index: 10000;
+// }
+// .hd_provinceList {
+//     display: none;
+//     position: absolute;
+//     top: 36px;
+//     left: -1px;
+//     width: 280px;
+//     border: 1px solid #e5e5e5;
+//     background: #fff;
+//     color: #333;
+//     font-weight: 400;
+//     cursor: default;
+//     z-index: -1;
+//     padding: 5px 0;
+//     border-top: none;
+//     li {
+//         padding-left: 10px;
+//         line-height: 22px;
+//         color: #a5a5a5;
+//         font-weight: 700;
+//         float: none;
+//         em {
+//             font-style: normal;
+//             float: left;
+//             width: 10px;
+//             display: block;
+//             color: #a5a5a5;
+//             line-height: 22px;
+//             font-family: tahoma, arial, #65533;
+//         }
+//         a {
+//             // display: inline;
+//             float: left;
+//             line-height: 22px;
+//             font-size: 12px;
+//             color: #5e5e5e;
+//             margin: 0 4px 0 4px;
+//             padding: 1px 2px;
+//             float: none;
+//             font-weight: 400;
+//             &:hover {
+//                 color: #0083ce;
+//                 text-decoration: underline;
+//             }
+//         }
+//     }
+// }
+// .urt {
+//     float: right;
+//     & > li {
+//         float: left;
+//         a {
+//             border-right: 1px solid #ccc;
+//             padding: 0 12px;
+//         }
+//         .red {
+//             color: #e54948;
+//         }
+//         &:nth-child(1) {
+//             a {
+//                 padding-left: 0;
+//             }
+//         }
+//     }
+//     .last {
+//         a {
+//             border: none;
+//             padding: 0;
+//         }
+//     }
+//     .menu_bd {
+//         position: absolute;
+//         margin: 0;
+//         left: -7px;
+//         top: 3px;
+//         background: #fff;
+//         z-index: 10001;
+//     }
+// }
+// .iyao {
+//     position: relative;
+// }
+// .myyaowang {
+//     position: absolute;
+//     display: none;
+//     top: 38px;
+//     z-index: 99999;
+//     background: #fff;
+//     border: 1px solid #ddd;
+//     li {
+//         width: 80px;
+//         padding: 2px 0px;
+//         a {
+//             border: none;
+//             line-height: 16px;
+//             padding: 0 3px;
+//         }
+//     }
+// }
+// .telnum {
+//     overflow: hidden;
+//     float: left;
+//     font-size: 12px;
+//     color: #c7a774;
+//     font-weight: 700;
+//     font-family: Tahoma;
+//     padding: 0;
+//     line-height: 36px;
+//     margin: 0 10px 0 10px;
+// }
+// .last {
+//     position: relative;
+// }
+// .tell_title {
+//     border: 1px solid #ddd;
+//     border-bottom: 0;
+//     width: 74px;
+//     height: 33px;
+//     line-height: 33px;
+//     overflow: hidden;
+//     display: none;
+// }
+// #menu_bd_app {
+//     background-color: #fff;
+//     border: 1px solid #ddd;
+//     display: none;
+//     float: left;
+//     line-height: 24px;
+//     right: -13px;
+//     top: 36px;
+//     padding: 12px 0 12px 5px;
+//     position: absolute;
+//     width: 205px;
+//     .dimensional {
+//         width: 85px;
+//         background-position: -88px -223px;
+//         height: 85px;
+//         display: block;
+//         float: left;
+//         margin: 0 auto;
+//     }
+//     .redBold {
+//         color: #e72418;
+//         font-weight: 700;
+//         float: none;
+//     }
+//     p {
+//         font-size: 12px;
+//     }
+// }
+// .dimensional {
+//     background: url(//s.maiyaole.com/images/201306/images/common_sprite.png?t==20141218) no-repeat right 0;
+// }
+}*/
+/* -----------------------------------------头部------------------------------------------ */
+.head {
+    width: 100%;
+    color: #3e4141;
+    // <!--公共头部-->
+    .head_top {
+        width: 100%;
+        background-color: #fcfcfc;
+        border-bottom: 1px solid #e5e5e5;
+        .head_top_box {
+            width: 1200px;
+            height: 30px;
+            margin: 0 auto;
             position: relative;
-            color: #333;
-            padding: 0;
-            margin: 0;
-            text-align: center;
-            dd {
-                // position: absolute;
-                text-align: center;
-                float: left;
-                min-width: 150px;
-                height:100px ;
-                line-height: 100px;
-                margin: 20px 45px 30px;
-                a {
-                    font-size: 30px;
-                    line-height: 100px;
-                    font-weight: bold;
-                    color: #1e301d;
-                    width: 90px;
-                    height: 100px;
-                    overflow: hidden;
-                    text-align: center;
-                    &:hover{
-                        color: coral;
+            z-index: 79;
+            font-size: 12px;
+            .login {
+                width: 100%;
+                color: #3e4141;
+                line-height: 30px;
+                // float: left;
+                margin-right: 20px;
+                .user{
+                    width: 200px;
+                    float: left;
+                    font-family: "宋体","Arial Narrow",HELVETICA;
+                    font-size: 12px;
+                    color: #333;
+                    padding: 0;
+                    margin: 0;
+                    span{
+                        display: block;
+                        float: left;
+                        a {
+                            color: #ff6900;
+                            margin: 0 0 0 5px;
+                        }
+                    }
+                }
+                .head_city {
+                    float: left;
+                    background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -43px no-repeat;
+                    padding-left: 34px;
+                    a {
+                        text-align: left;
+                        line-height: 22px;
+                        color: #3e4141;
+                        float: left;
+                        border: 1px solid #eeeee7;
+                        margin-top: 3px;
+                        overflow: hidden;
+                        padding-right: 10px;
+                    }
+                }
+                .head_menu {
+                    float: right;
+                    height: 30px;
+                    line-height: 30px;
+                    li {
+                        float: left;
+                        position: relative;
+                        background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) right -79px no-repeat;
+                    }
+                    .menu_word {
+                        margin: 0 15px;
+                        a {
+                            color: #000;
+                            margin: 0 5px;
+                        }
+                    }
+                    .head_twocode {
+                        float: left;
+                        dl {
+                            width: 101px;
+                            height: 30px;
+                            display: block;
+                            dt{
+                                display: block;
+                                a {
+                                    width: 100px;
+                                    padding: 0 0 0 30px;
+                                    display: block;
+                                    background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ipico01_dfa609de.gif) 11px 4px no-repeat;
+                                    line-height: 30px;
+                                    color: #3e4141;
+                                    text-decoration: none;
+                                }
+                                div {
+                                    display: block;
+                                }
+                            }
+                            
+                            dd {
+                                width: 93px;
+                                position: absolute;
+                                margin-left: 0;
+                                top: 30px;
+                                left: -1px;
+                                padding: 0 4px;
+                                background-color: #fff;
+                                box-shadow: 1px 1px 6px rgba(192,192,192,.5);
+                                z-index: 78;
+                                display: none;
+                                border-left: 1px solid #e8e8e8;
+                                border-right: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                                p {
+                                    color: #3e4141;
+                                    line-height: 40px;
+                                    text-align: center;
+                                }
+                            }
+                        }
+                    }
+                    .head_service {
+                        dl {
+                            width: 87px;
+                            height: 30px;
+                            display: block;
+                            dt {
+                                display: block;
+                                a {
+                                    width: 73px;
+                                    padding: 0 0 0 14px;
+                                    display: block;
+                                    background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 65px 13px no-repeat;
+                                    line-height: 30px;
+                                    color: #3e4141;
+                                    text-decoration: none;
+                                }
+                            }
+                            dd {
+                                width: 79px;
+                                position: absolute;
+                                top: 30px;
+                                left: -1px;
+                                padding: 0 4px 7px;
+                                background-color: #fff;
+                                box-shadow: 1px 1px 6px rgba(192,192,192,.5);
+                                z-index: 78;
+                                display: none;
+                                border-left: 1px solid #e8e8e8;
+                                border-right: 1px solid #e8e8e8;
+                                border-bottom: 1px solid #e8e8e8;
+                            }
+                        }
+
                     }
                 }
             }
-            .active{
-                color: coral;
-            }
-            .current {
-                display: block;
-            }
-
         }
     }
-    .high-b{
-        width: 1160px;
-        height: 280px;
-        float: left;
-        position: relative;
-        margin-left: 20px;
-        // display: inline; 
-        .current {
+    // <!--头部广告-->
+    .head_top_bar{
+        width: 1920px;
+        height: 60px;
+        margin: 0 auto 0;
+        img{
             display: block;
         }
-        dd{
-            padding: 0 22px;
-            float: left;
-            position: absolute;
-            display: none;
-            background: rgb(238, 238, 238);
-            top: 0;
-            left: 0;
-            overflow: hidden;
-            li {
-                width: 178px;
+    }
+    // <!--logo部分-->
+    .head_logo{
+        width: 1200px;
+        height: 102px;
+        margin: 0 auto;
+        .head_logo_box {
+            width: 1200px;
+            padding: 10px 0 20px;
+            // logo
+            h1 {
                 float: left;
-                height: 272px;
-                padding: 4px;
+                width: 352px;
+                height: 72px;
+                display: block;
+                font-size: 20px;
+                img{
+                    border: 0;
+
+                }
+            }
+            // 购物车
+            .head_car {
+                float: right;
+                margin: 30px 0 0 20px;
                 position: relative;
-                transition: all .2s linear;
-                list-style: none;
-                .box{
-                    width: 140px;
-                    height: 272px;
-                    padding: 0 14px;
-                    position: relative;
-                    transition: all .2s linear;
-                    p {
-                        display: block;
-                        margin-block-start: 2px;
-                        margin-block-end: -1px;
-                    }
-                    .pic {
-                        margin-top: 15px;
-                        transition: all .2s linear;
-                        img {
-                            display: block;
-                            width: 140px;
-                            height: 140px;
-                        }
-                    }
-                    .name {
+                z-index: 69;
+                dl {
+                    height: 40px;
+                    dt {
+                        border: 1px solid #e5e5e5;
                         height: 38px;
-                        width: 140px;
-                        text-overflow: clip;
-                        display: block;
-                        overflow: hidden;
-                        margin-top: 15px;
-                        transition: all .2s linear;
-                        a {
-                            font: 400 14px/18px "Microsoft YaHei";
-                            color: #3e4141;
-                            font {
-                                height: 19px;
-                                text-overflow: ellipsis;
-                                white-space: nowrap;
-                                display: block;
-                                overflow: hidden;
-                            }
-                            span {
-                                font: 400 12px/18px "Microsoft YaHei";
-                                color: #898989;
-                                text-overflow: ellipsis;
-                                white-space: nowrap;
-                                display: block;
-                                overflow: hidden;
-                            }
+                        position: relative;
+                        z-index: 67;
+                        .buy_quantity {
+                            background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -194px no-repeat;
+                            height: 23px;
+                            width: 37px;
+                            position: absolute;
+                            top: -16px;
+                            left: 21px;
+                            font: 400 14px/19px "微软雅黑";
+                            // font-size: 14px;
+                            // line-height: 19px;
+                            // font-family: 微软雅黑;
+                            color: #fff;
+                            text-align: center;
+                            z-index: 68;
                         }
-                    }
-                    .price {
-                        font: 400 17px/25px "Microsoft YaHei";
-                        color: #ff6900;
-                        margin-top: 7px;
-                        transition: all .2s linear;
-                        span {
-                            font: 400 12px/25px "Microsoft YaHei";
-                            color: #686c69;
-                            text-decoration: line-through;
-                        }
-                    }
-                    .btn {
-                        position: absolute;
-                        top: 260px;
-                        left: 5px;
-                        transition: all .2s linear; 
                         a {
-                            background: url(//image.benlailife.com/webStatic/images/btn_new_b1771e22.png) no-repeat -33px 0;
-                            width: 168px;
-                            height: 33px;
                             display: block;
+                            // background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 98px 17px no-repeat #f8f8f6;
+                            background: #f8f8f6;
+                            font: 400 12px/38px "微软雅黑";
+                            color: #3e4141;
+                            padding-right: 25px;
                             text-decoration: none;
+                            s {
+                                background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -158px no-repeat;
+                                width: 21px;
+                                height: 16px;
+                                display:block;
+                                margin: 12px 13px 0 12px;
+                                float: left;
+                            }
                         }
-                        .icn{
-                            background-position: center 0;
-                            cursor: pointer;
-                        }
-                    }
-                    &:hover .btn {
-                        top: 220px;
                     }
                 }
-                &:hover{
-                    background: rgb(250, 250, 250);
+            }
+            // 我的本来
+            .head_my{
+                float: right;
+                margin: 30px 0 0;
+                position: relative;
+                z-index: 59;
+                dl {
+                    height: 40px;
+                    display: block;
+                    dt {
+                        border: 1px solid #e5e5e5;
+                        height: 38px;
+                        
+                        position: relative;
+                        z-index: 58;
+                        a {
+                            display: block;
+                            background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 103px 17px no-repeat #f8f8f6;
+                            font: 400 12px/38px "微软雅黑";
+                            color: #3e4141;
+                            padding-right: 31px;
+                            text-decoration: none;
+                            s {
+                                background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -121px no-repeat;
+                                width: 16px;
+                                height: 17px;
+                                display:block;
+                                margin: 12px 9px 0 11px;
+                                float: left;
+                            }
+                        }
+                    }
+                }
+            }
+            // 搜索框
+            .head_search{
+                float: right;
+                margin: 30px 45px 0 0;
+                height: 41px;
+                width: 470px;
+                position: relative;
+                z-index: 49;
+                .search_box {
+                    background-color: #91be16;
+                    padding: 3px;
+                    width: 472px;
+                    input {
+                        width: 367px;
+                        height: 35px;
+                        border: 0;
+                        padding: 0 10px;
+                        float: left;
+                        font: 400 14px/35px "Microsoft YaHei";
+                        color: #3e4141;
+                    }
+                    a {
+                        height: 35px;
+                        width: 77px;
+                        background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 0 -265px no-repeat;
+                        display: inline-block;
+                    }
+                }
+                .search_word {
+                    position: absolute;
+                    top: -32px;
+                    left: 0;
+                    line-height: 32px;
+                    height: 32px;
+                    width: 470px;
+                    overflow: hidden;
+                    em {
+                        margin: 0 25px 0 0;
+                        padding: 0;
+                        float: left;
+                        max-width: 445px;
+                        a {
+                            color: #8c8c8c;
+                            display: block;
+                            font-size: 14px;
+                            white-space: nowrap;
+                            width: auto;
+                            &:hover{
+                                color:  #ff6900;
+                            }
+                        }
+                    }
                 }
             }
         }
     }
+    // <!--头部导航栏-->
+    .head_menu_nav{
+        height: 44px;
+        width: 100%;
+        background-color: #8ab700;
+        .head_menu_box{
+            width: 1200px;
+            height: 44px;
+            margin: 0 auto;
+            .head_menu_all {
+                position: relative;
+                z-index: 39;
+                float: left;
+                width: 210px;
+                .tit_all a {
+                    float: left;
+                    width: 175px;
+                    background: url(//image.benlailife.com/webStatic/images/n_top/n_top_ico_e5a1c5b5.png) 158px -218px no-repeat #78a000;
+                    font: 400 18px/44px "Microsoft YaHei";
+                    color: #fff;
+                    padding-left: 35px;
+                    text-decoration: none;
+                }
+                .tit_sort {
+                    border: 2px solid #91be16;
+                    position: absolute;
+                    top: 44px;
+                    left: 0;
+                    height: 396px;
+                    width: 206px;
+                    background-color: #fff;
+                    display: none;
+                    .sort_bg1{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px 0 no-repeat #fff; ;
+                    }
+                    .sort_bg2{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -33px no-repeat #fff; ;
+                    }
+                    .sort_bg3{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -66px no-repeat #fff; ;
+                    }
+                    .sort_bg4{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -99px no-repeat #fff; ;
+                    }
+                    .sort_bg5{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -132px no-repeat #fff; ;
+                    }
+                    .sort_bg6{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -165px no-repeat #fff; ;
+                    }
+                    .sort_bg7{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -198px no-repeat #fff; ;
+                    }
+                    .sort_bg8{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -231px no-repeat #fff; ;
+                    }
+                    .sort_bg9{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -264px no-repeat #fff; ;
+                    }
+                    .sort_bg10{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -297px no-repeat #fff; ;
+                    }
+                    .sort_bg11{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -330px no-repeat #fff; ;
+                    }
+                    .sort_bg12{
+                        background:url(//image.benlailife.com/webStatic/images/n_top/n_menu_bg01_oc_b4237de2.png) 8px -363px no-repeat #fff; ;
+                    }
+                    dl {
+                        height: 33px;
+                        width: 206px;
+                        float: left;
+                        
+                        dt {
+                            height: 31px;
+                            line-height: 31px;
+                            width: 156px;
+                            position: relative;
+                            z-index: 37;
+                            top: 0;
+                            left: 0;
+                            color: #4c4c4c;
+                            padding: 1px 0 1px 50px;
+                            text-overflow: clip;
+                            // display: block;
+                            overflow: hidden;
+                            font-family: "Microsoft YaHei";
+                            a {
+                                color: #4c4c4c;
+                                line-height: 31px;
+                            }
+                            span{
+                                content: "";
+                                background: url(//image.benlailife.com/webStatic/images/n_top/n_icon12_498beb5a.png) 0 0 no-repeat;
+                                display: block;
+                                width: 6px;
+                                height: 12px;
+                                float: right;
+                                margin: 12px 12px 0 0;
+                            }
+                        }
+                        dd {
+                            border-left: 1px solid #8ab700;
+                            border-right: 1px solid #8ab700;
+                            border-bottom: 1px solid #8ab700;
+                            background-color: #fff;
+                            background: rgba(255,255,255,.97);
+                            position: absolute;
+                            top: -2px;
+                            left: 208px;
+                            z-index: 36;
+                            width: 973px;
+                            height: auto!important;
+                            height: 384px;
+                            min-height: 384px;
+                            padding: 15px 15px 0 0;
+                            display: none;
+                            // display:block;
+                        }
+                    }
+                    } 
+            }
+            .head_menu_r {
+                float: right;
+                width: 988px;
+                height: 40px;
+                margin: 2px 0 0 2px;
+                ul {
+                    display: block;
+                    list-style-type: disc;
+                    // padding-inline-start: 40px;
+                    li {
+                        float: left;
+                        position: relative;
+                        z-index: 39;
+                        &:hover{
+                            background: #78a000;
+                        }
+                        img {
+                            position: absolute;
+                            top: -8px;
+                            right: 8px;
+                            font-size: 12px;
+                            vertical-align: middle;
+                        }
+                        a {
+                            font: 400 18px/40px "Microsoft YaHei";
+                            color: #fff!important;
+                            padding: 0 25px;
+                            text-decoration: none!important;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* -----------------------------------------导航------------------------------------------ */
+.c_head {
+    width: 1200px;
+    margin: 0 auto;
+}
+.flow-steps {
+    float: right;
+    overflow: hidden;
+    margin: 30px auto;
+    .num5 {
+        li {
+            width: 175px;
+        }
+    }
+    li {
+        float: left;
+        background: #f3f3f3 url(//s.maiyaole.com/images/cart/followstep.png) no-repeat right top;
+        font-size: 12px;
+        height: 32px;
+        line-height: 32px;
+        text-align: center;
+        color: #a5a5a5;
+        padding: 0 15px 0 0;
+        overflow: hidden;
+        &.current {
+            background-color: #ff9000;
+            color: #fff;
+            font-weight: bold;
+        }
+        &.last {
+            background-image: none;
+        }
+    }
+}
+.flow-steps li span,.flow-steps li strong {
+    display: block;
+}
+/* -----------------------------------------导航------------------------------------------ */
+input[type="checkbox"] {
+    display: none;
+}
+label {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    border: 1px solid #b8b8b8;
+    margin-left: 10px;
+    border-radius: 1px;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    &.mark {
+        background: url("../img/mark1.png") no-repeat -1px -1px;
+    }
+}
+a {
+    &:hover {
+        color: #ff873e;
+        text-decoration: underline;
+    }
+}
+// .wrap,
+// .wrap_detail,
+// .head_wrap,
+// .nav{
+//     margin: 0 auto;
+//     width: 1200px;
+//     height: 100%;
+// }
+.cartMain {
+    position: relative;
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    margin: 0px auto 20px;
+    padding: 0px 0px 0px;
+    min-height: 210px;
+    height: auto;
+}
+
+.cartBox {
+    width: 100%;
+    margin-bottom: 15px;
+    .shop_info {
+        position: relative;
+        width: 100%;
+        height: 38px;
+        background-color: #ffb95d;
+        line-height: 38px;
+        font-weight: bolder;
+        vertical-align: baseline;
+        .all_check {
+            position: relative;
+            float: left;
+            width: 30px;
+            height: 38px;
+            input[type="checkbox"] {
+                position: absolute;
+                z-index: 0;
+                left: -20px;
+                top: -20px;
+            }
+            .shop {
+                position: absolute;
+                top: 13px;
+            }
+        }
+        .shop_name {
+            float: left;
+            a{
+                color:black;
+                font-weight: bolder;
+                text-decoration: none;
+            }
+        }
+    }
+    .order_content {
+        border: 1px solid #ccc;
+        a {
+            display: block;
+        }
+    }
+}
+/*商品列表*/
+.order_lists {
+    width: 100%;
+    height: 130px;
+    background: #f3f3f3;
+    border-bottom: 1px solid #e7e7e7;
+    &:last-child {
+        border-bottom: none;
+    }
+    li {
+        float: left;
+        height: 100%;
+        padding: 0 6px;
+        text-align: center;
+    }
+    .list_chk {
+        position: relative;
+        width: 44px;
+        input[type="checkbox"] {
+            position: absolute;
+            z-index: 0;
+            left: -20px;
+            top: -20px;
+        }
+        label {
+            margin: 20px 0 0 24px;
+        }
+    }
+    .list_con {
+        width: 355px;
+        .list_img {
+            width: 80px;
+            height: 60px;
+            margin-top: 20px;
+            float: left;
+            img {
+                width: 100%;
+                vertical-align: top;
+            }
+        }
+        .list_text {
+            margin: 20px 0 0 35px;
+            line-height: 18px;
+            width: 240px;
+            float: left;
+            a {
+                color: #3c3c3c;
+                &:hover {
+                    color: #ff873e;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .list_info {
+        width: 158px;
+        box-sizing: border-box;
+        padding: 20px 0;
+        p {
+            color: #9c9c9c;
+            line-height: 18px;
+            margin-left: 15px;
+        }
+    }
+    .list_price {
+        width: 225px;
+        .price {
+            margin-top: 20px;
+            line-height: 18px;
+            font-family: Verdana, Tahoma, arial;
+            color: #3c3c3c;
+            font-weight: bold;
+        }
+    }
+    .list_amount {
+        width: 145px;
+        .amount_box {
+            margin: 20px auto;
+            width: 77px;
+            height: 25px;
+            position: relative;
+            input {
+                width: 39px;
+                height: 15px;
+                line-height: 15px;
+                border: 1px solid #aaa;
+                color: #343434;
+                text-align: center;
+                padding: 4px 0;
+                background-color: #fff;
+                z-index: 2;
+                position: absolute;
+                left: 18px;
+                float: left;
+            }
+            a {
+                float: left;
+                height: 23px;
+                width: 17px;
+                border: 1px solid #e5e5e5;
+                background: #f0f0f0;
+                text-align: center;
+                line-height: 23px;
+                color: #444;
+                position: absolute;
+                top: 0;
+                &:hover {
+                    border-color: #ff873e;
+                    text-decoration: none;
+                    color: #ff873e;
+                    z-index: 3;
+                }
+            }
+            .reduce {
+                left: 0;
+            }
+            .reSty {
+                color: #cbcbcb;
+                &:hover {
+                    border-right: none;
+                    border-color: #e5e5e5;
+                    text-decoration: none;
+                    color: #cbcbcb;
+                }
+            }
+            .plus {
+                border-left-color: transparent;
+                right: 0;
+            }
+        }
+    }
+    .list_sum {
+        width: 175px;
+        .sum_price {
+            line-height: 18px;
+            margin-top: 20px;
+            font-family: Verdana, Tahoma, arial;
+            color: #ff0000;
+            font-weight: bold;
+        }
+    }
+    .list_op {
+        width: 150px;
+        .del {
+            margin-top: 20px;
+            line-height: 18px;
+        }
+    }
+}
+/*全选栏*/
+.cartMain_hd {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #3c3c3c;
+    .cartTop {
+        height: 50px;
+        background: #fd9000;
+        font-weight: bolder;
+        .list_chk {
+            width: 100px;
+            text-indent: 30px;
+            label {
+                position: absolute;
+                left: 10px;
+                top: 19px;
+                margin: 0;
+            }
+        }
+        .list_con {
+            width: 300px;
+            text-indent: 29px;
+        }
+        .list_info {
+            padding: 0;
+            text-indent: 15px;
+        }
+    }
+}
+/*底部总计算价*/
+.bar-wrapper {
+    width: 1200px;
+    height: 50px;
+    z-index: 99;
+    background: #e5e5e5;
+    .bar-left {
+        float: left;
+        color: #3c3c3c;
+        li {
+            float: left;
+            // width: 70px;
+            padding: 0 30px;
+            line-height: 50px;
+        }
+    }
+    .bar-right {
+        float: right;
+        color: #3c3c3c;
+        strong {
+            color: #f40;
+        }
+        .piece {
+            float: left;
+            min-width: 110px;
+            margin-right: 20px;
+            height: 50px;
+            line-height: 50px;
+            .piece_num {
+                display: inline-block;
+                padding: 0 10px;
+                font-weight: 700;
+                font-size: 18px;
+                font-family: tohoma, arial;
+            }
+        }
+        .totalMoney {
+            float: left;
+            min-width: 100px;
+            height: 50px;
+            line-height: 50px;
+            .total_text {
+                float: right;
+                font-weight: 400;
+                font-size: 20px;
+                font-family: Arial;
+                vertical-align: middle;
+                margin-right: 10px;
+                margin-left: 15px;
+            }
+        }
+        .goshop {
+            a {
+                color: #fff;
+                border: 1px solid #fc9209;
+                background: #fc9209;
+                cursor: pointer;
+                height: 50px;
+                font-size: 18px;
+                line-height: 50px;
+                margin: 0px 10px;
+                font-weight: normal;
+            }
+            &:hover {
+                background-color: #fd9000;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        .calBtn {
+            a {
+                color: #fff;
+                background: #b0b0b0;
+                cursor: not-allowed;
+                font-weight: bold;
+                &.btn_sty {
+                    background: #f40;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+.bar-left {
+    .list_chk {
+        label {
+            margin: 10px 0 0 10px;
+        }
+    }
+}
+.bar-wrapper .bar-right .calBtn,
+.bar-wrapper .bar-right .goshop {
+    float: left;
+}
+.bar-wrapper .bar-right .calBtn a,
+.bar-wrapper .bar-right .goshop a {
+    display: block;
+    box-sizing: border-box;
+    width: 120px;
+    height: 50px;
+    font-size: 22px;
+    font-family: "Microsoft YaHei", tahoma, arial;
+    letter-spacing: 5px;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 2px;
+}
+/*自己定义的模态框*/
+.model_bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+    z-index: 999;
+    display: none;
+}
+.my_model {
+    position: fixed;
+    display: none;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -200px;
+    z-index: 9999;
+    width: 360px;
+    height: 120px;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    padding: 20px;
+    background: #fff;
+    .title {
+        font-size: 14px;
+        color: #3c3c3c;
+        font-weight: 700;
+        margin-bottom: 20px;
+        .closeModel {
+            float: right;
+            cursor: pointer;
+        }
+    }
+    p {
+        line-height: 16px;
+    }
+    .opBtn {
+        margin-top: 20px;
+        a {
+            width: 58px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            -webkit-border-radius: 1px;
+            -moz-border-radius: 1px;
+            -ms-border-radius: 1px;
+            border-radius: 1px;
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: 700;
+        }
+    }
+    .dialog-sure {
+        background: #52a0e5;
+        color: #fff;
+        border: 1px solid #52a0e5;
+    }
+    .dialog-close {
+        background: #fff;
+        border: 1px solid #d9d9d9;
+        color: #3c3c3c;
+    }
+}
+/* 猜你喜欢 */
+#recommend {
+    position: relative;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.recommend_cart {
+    width: 1200px;
+    border: 1px solid #dbdbdb;
+    margin: 38px auto;
+    clear: both;
+    .recom_tt {
+        height: 40px;
+        line-height: 40px;
+        padding-left: 20px;
+        font-size: 14px;
+        color: #0083ce;
+        font-weight: bold;
+        border-bottom: 1px solid #dbdbdb;
+    }
+    .recom_cart_con {
+        padding: 10px 0 2px 0;
+    }
+    ul {
+        margin-left: 0;
+        li {
+            float: left;
+            margin: 0 9px;
+        }
+    }
+}
+.recommend_ul {
+    padding-bottom: 10px;
+    overflow: hidden;
+    margin-left: 15px;
+    li {
+        width: 145px;
+        margin-top: 8px;
+    }
+    .pro_img {
+        width: 145px;
+        height: 145px;
+        margin-bottom: 8px;
+    }
+}
+.bfd_sc_li1 {
+    // display: inline;
+    float: left;
+    margin: 12px 9px 0;
+    padding-bottom: 10px;
+    width: 145px;
+    a {
+        display: inherit;
+        height: 192px;
+        color: #333;
+        span {
+            display: inline-block;
+            height: 34px;
+            line-height: 34px;
+            overflow: hidden;
+        }
+    }
+    p {
+        a {
+            img {
+                height: 140px;
+                width: 140px;
+            }
+        }
+    }
+}
+.price {
+    text-align: center;
+}
+.bfd_ls_price {
+    color: #d00;
+    font: bold 16px Arial;
+    margin-right: 10px;
+}
+/* ----------------------------底部------------------------------ */
+.common_footer_simple {
+    margin-bottom: 36px;
 }

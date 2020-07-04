@@ -101,7 +101,7 @@ class Slider {
         this.slider.append(this.sliderBox);
         this.slider.append(this.sliderControl);
         this.slider.append(this.sliderNav);
-        $("body").append(this.slider);
+        $(".slideshow").append(this.slider);
     }
     createSliderBox() {
         this.sliderBox = $("<ul class='slider-box'></ul>");
